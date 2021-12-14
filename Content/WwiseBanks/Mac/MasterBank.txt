@@ -4,8 +4,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	394177638	Play_Star_Emote_Question			\Default Work Unit\Play_Star_Emote_Question	
 	1602358412	Play_Footstep			\Default Work Unit\Play_Footstep	
 	1908953803	Play_Star_Idle			\Default Work Unit\Play_Star_Idle	
+	2190956745	Play_Reverie_Girl_Theme			\Default Work Unit\Play_Reverie_Girl_Theme	
 	2278146586	Play_Star_Emote_NoNo			\Default Work Unit\Play_Star_Emote_NoNo	
 	2515930607	Play_Star_Emote_HurryUp			\Default Work Unit\Play_Star_Emote_HurryUp	
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
 	3206962000	Play_Forest_Ambient			\Default Work Unit\Play_Forest_Ambient	
 	3488159267	Play_Cenote_Ambient			\Default Work Unit\Play_Cenote_Ambient	
 	3692107796	Play_Cave_Ambient			\Default Work Unit\Play_Cave_Ambient	
@@ -32,6 +34,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	140278530	Motmot_05	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Motmot_05_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cenote\Cenote_Ambient\Bird_Call\Motmot_05		379644
 	158885810	Reverie-Footsteps_Water_04	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Footsteps_Water_04_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footstep\Footstep_Water\Reverie-Footsteps_Water_04		50922
 	171515428	Reverie-Forest_Ambient_Wind_01[LOOP]	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Forest_Ambient_Wind_01[LOOP]_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Forest\Forest_Ambient\Reverie-Forest_Ambient_Wind_01[LOOP]		16038128
+	192943792	1 - Reverie_Girl_Theme_DRAFT_v1	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\1 - Reverie_Girl_Theme_DRAFT_v1_075A6C54.wem		\Interactive Music Hierarchy\Default Work Unit\1 - Reverie_Girl_Theme_DRAFT_v1\1 - Reverie_Girl_Theme_DRAFT_v1		6544261
 	209185863	Reverie-Footsteps_Gravel_04	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Footsteps_Gravel_04_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footstep\Footstep_Gravel\Reverie-Footsteps_Gravel_04		34428
 	209450012	Reverie-Footsteps_Water_08	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Footsteps_Water_08_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footstep\Footstep_Water\Reverie-Footsteps_Water_08		51501
 	220228986	Reverie-Star_NoNo_01	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Star_NoNo_01_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Star\Star_Emote_NoNo\Reverie-Star_NoNo_01		57658
@@ -67,6 +70,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	678312899	Reverie-Footsteps_Water_12	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Footsteps_Water_12_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footstep\Footstep_Water\Reverie-Footsteps_Water_12		43119
 	693009781	Reverie-Star_Idle_04	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Star_Idle_04_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Star\Star_Idle\Star_Idle_OneShots\Reverie-Star_Idle_04		195092
 	762089670	Reverie-Occasional_Wave_01	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Occasional_Wave_01_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cenote\Distant_Shore\Occasional_Wave\Reverie-Occasional_Wave_01		403290
+	771543799	Reverie_Cave_Collage_DRAFT3	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie_Cave_Collage_DRAFT3_075A6C54.wem		\Interactive Music Hierarchy\Default Work Unit\Reverie_Cave_Collage_DRAFT\Reverie_Cave_Collage_DRAFT3		12617381
 	771795146	Reverie-Footsteps_Grass_05	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Footsteps_Grass_05_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footstep\Footstep_Grass\Reverie-Footsteps_Grass_05		16493
 	777732565	Reverie-Footsteps_Gravel_03	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Footsteps_Gravel_03_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footstep\Footstep_Gravel\Reverie-Footsteps_Gravel_03		36172
 	798383048	Reverie-Bird_Call_02	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Bird_Call_02_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cenote\Cenote_Ambient\Bird_Call\Reverie-Bird_Call_02		525949

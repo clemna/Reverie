@@ -16,7 +16,7 @@
     "Id": "1542108333",
     "GUID": "{CA1DDA29-E66E-4FBE-B121-02F04DDDB158}",
     "Language": "SFX",
-    "Hash": "1692343791",
+    "Hash": "217343740",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MasterBank",
     "ShortName": "MasterBank",
     "Path": "MasterBank.bnk",
@@ -511,6 +511,40 @@
       ]
      },
      {
+      "Id": "2932040671",
+      "Name": "Play_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music",
+      "GUID": "{24069ED3-4EFB-40CC-847D-CB077ABEE675}",
+      "DurationType": "OneShot",
+      "DurationMin": "366.545471",
+      "DurationMax": "366.545471",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "771543799",
+        "Language": "SFX",
+        "ShortName": "Reverie_Cave_Collage_DRAFT3.wav",
+        "Path": "SFX\\Reverie_Cave_Collage_DRAFT3_075A6C54.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2190956745",
+      "Name": "Play_Reverie_Girl_Theme",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Reverie_Girl_Theme",
+      "GUID": "{6C2E6BF9-44E4-4321-9083-25BFAE8EE5CB}",
+      "DurationType": "OneShot",
+      "DurationMin": "135.735809",
+      "DurationMax": "135.735809",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "192943792",
+        "Language": "SFX",
+        "ShortName": "1 - Reverie_Girl_Theme_DRAFT_v1.wav",
+        "Path": "SFX\\1 - Reverie_Girl_Theme_DRAFT_v1_075A6C54.wem"
+       }
+      ]
+     },
+     {
       "Id": "2515930607",
       "Name": "Play_Star_Emote_HurryUp",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Star_Emote_HurryUp",
@@ -525,14 +559,6 @@
         "Language": "SFX",
         "ShortName": "Reverie-Star_HurryUp_01.wav",
         "Path": "SFX\\Reverie-Star_HurryUp_01_9ABA330A.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "3177428469",
-        "Name": "Cave_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Cave_Reverb",
-        "GUID": "{ABB16B87-6456-4BCF-B27C-FB9EDF773517}"
        }
       ]
      },
@@ -558,14 +584,6 @@
         "ShortName": "Reverie-Star_NoNo_02.wav",
         "Path": "SFX\\Reverie-Star_NoNo_02_9ABA330A.wem"
        }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "3177428469",
-        "Name": "Cave_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Cave_Reverb",
-        "GUID": "{ABB16B87-6456-4BCF-B27C-FB9EDF773517}"
-       }
       ]
      },
      {
@@ -589,14 +607,6 @@
         "Language": "SFX",
         "ShortName": "Reverie-Star_Question_01.wav",
         "Path": "SFX\\Reverie-Star_Question_01_9ABA330A.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "3177428469",
-        "Name": "Cave_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Cave_Reverb",
-        "GUID": "{ABB16B87-6456-4BCF-B27C-FB9EDF773517}"
        }
       ]
      },
@@ -637,14 +647,6 @@
         "Language": "SFX",
         "ShortName": "Reverie-Star_Idle_01.wav",
         "Path": "SFX\\Reverie-Star_Idle_01_9ABA330A.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "3177428469",
-        "Name": "Cave_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Cave_Reverb",
-        "GUID": "{ABB16B87-6456-4BCF-B27C-FB9EDF773517}"
        }
       ]
      },
@@ -691,14 +693,6 @@
         "Language": "SFX",
         "ShortName": "Reverie-Tree_Creaking_05.wav",
         "Path": "SFX\\Reverie-Tree_Creaking_05_9ABA330A.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "3177428469",
-        "Name": "Cave_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Cave_Reverb",
-        "GUID": "{ABB16B87-6456-4BCF-B27C-FB9EDF773517}"
        }
       ]
      }

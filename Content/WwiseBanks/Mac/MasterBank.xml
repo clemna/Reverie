@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>E:\Game Development\Reverie\Reverie_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1542108333" GUID="{CA1DDA29-E66E-4FBE-B121-02F04DDDB158}" Language="SFX" Hash="1692343791">
+		<SoundBank Id="1542108333" GUID="{CA1DDA29-E66E-4FBE-B121-02F04DDDB158}" Language="SFX" Hash="217343740">
 			<ObjectPath>\SoundBanks\Default Work Unit\MasterBank</ObjectPath>
 			<ShortName>MasterBank</ShortName>
 			<Path>MasterBank.bnk</Path>
@@ -294,6 +294,22 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" GUID="{24069ED3-4EFB-40CC-847D-CB077ABEE675}" DurationType="OneShot" DurationMin="366.545471" DurationMax="366.545471">
+					<IncludedMemoryFiles>
+						<File Id="771543799" Language="SFX">
+							<ShortName>Reverie_Cave_Collage_DRAFT3.wav</ShortName>
+							<Path>SFX\Reverie_Cave_Collage_DRAFT3_075A6C54.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2190956745" Name="Play_Reverie_Girl_Theme" ObjectPath="\Events\Default Work Unit\Play_Reverie_Girl_Theme" GUID="{6C2E6BF9-44E4-4321-9083-25BFAE8EE5CB}" DurationType="OneShot" DurationMin="135.735809" DurationMax="135.735809">
+					<IncludedMemoryFiles>
+						<File Id="192943792" Language="SFX">
+							<ShortName>1 - Reverie_Girl_Theme_DRAFT_v1.wav</ShortName>
+							<Path>SFX\1 - Reverie_Girl_Theme_DRAFT_v1_075A6C54.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2515930607" Name="Play_Star_Emote_HurryUp" ObjectPath="\Events\Default Work Unit\Play_Star_Emote_HurryUp" GUID="{FB22BC62-66B3-46D4-A36E-E008E13B1488}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.879083" DurationMax="1.879083">
 					<IncludedMemoryFiles>
 						<File Id="125043996" Language="SFX">
@@ -301,9 +317,6 @@
 							<Path>SFX\Reverie-Star_HurryUp_01_9ABA330A.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="3177428469" Name="Cave_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Cave_Reverb" GUID="{ABB16B87-6456-4BCF-B27C-FB9EDF773517}"/>
-					</AuxBusSends>
 				</Event>
 				<Event Id="2278146586" Name="Play_Star_Emote_NoNo" ObjectPath="\Events\Default Work Unit\Play_Star_Emote_NoNo" GUID="{5943D494-2A8C-49CA-9B84-ECC2FCC33140}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.969312" DurationMax="1.304604">
 					<IncludedMemoryFiles>
@@ -316,9 +329,6 @@
 							<Path>SFX\Reverie-Star_NoNo_02_9ABA330A.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="3177428469" Name="Cave_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Cave_Reverb" GUID="{ABB16B87-6456-4BCF-B27C-FB9EDF773517}"/>
-					</AuxBusSends>
 				</Event>
 				<Event Id="394177638" Name="Play_Star_Emote_Question" ObjectPath="\Events\Default Work Unit\Play_Star_Emote_Question" GUID="{3BF18954-C051-47C6-9304-98C801C6347B}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.067812" DurationMax="1.183729">
 					<IncludedMemoryFiles>
@@ -331,9 +341,6 @@
 							<Path>SFX\Reverie-Star_Question_01_9ABA330A.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="3177428469" Name="Cave_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Cave_Reverb" GUID="{ABB16B87-6456-4BCF-B27C-FB9EDF773517}"/>
-					</AuxBusSends>
 				</Event>
 				<Event Id="1908953803" Name="Play_Star_Idle" ObjectPath="\Events\Default Work Unit\Play_Star_Idle" GUID="{F0E29DEA-F011-4BC3-B661-0FE84D7DE43A}" MaxAttenuation="2.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -358,9 +365,6 @@
 							<Path>SFX\Reverie-Star_Idle_01_9ABA330A.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="3177428469" Name="Cave_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Cave_Reverb" GUID="{ABB16B87-6456-4BCF-B27C-FB9EDF773517}"/>
-					</AuxBusSends>
 				</Event>
 				<Event Id="387097402" Name="Play_Tree_Creacking" ObjectPath="\Events\Default Work Unit\Play_Tree_Creacking" GUID="{5BEA8985-5FCE-4863-BB2A-39F043588039}" MaxAttenuation="5.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -389,9 +393,6 @@
 							<Path>SFX\Reverie-Tree_Creaking_05_9ABA330A.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="3177428469" Name="Cave_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Cave_Reverb" GUID="{ABB16B87-6456-4BCF-B27C-FB9EDF773517}"/>
-					</AuxBusSends>
 				</Event>
 			</IncludedEvents>
 			<SwitchGroups>
