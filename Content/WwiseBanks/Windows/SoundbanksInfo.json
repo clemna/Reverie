@@ -1,0 +1,757 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "E:\\Game Development\\Reverie\\Reverie_WwiseProject\\",
+   "SourceFilesRoot": "E:\\Game Development\\Reverie\\Reverie_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\Game Development\\00 - Git Projects\\Reverie\\Content\\WwiseBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\Game Development\\Reverie\\Reverie_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "DialogueEvents": [],
+  "StreamedFiles": [],
+  "MediaFilesNotInAnyBank": [],
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "3040542288",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "201580272",
+      "Name": "Cenote_Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Cenote_Reverb",
+      "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
+     },
+     {
+      "Id": "3177428469",
+      "Name": "Cave_Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Cave_Reverb",
+      "GUID": "{ABB16B87-6456-4BCF-B27C-FB9EDF773517}"
+     }
+    ]
+   },
+   {
+    "Id": "1542108333",
+    "GUID": "{CA1DDA29-E66E-4FBE-B121-02F04DDDB158}",
+    "Language": "SFX",
+    "Hash": "217343740",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\MasterBank",
+    "ShortName": "MasterBank",
+    "Path": "MasterBank.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "350586603",
+      "Name": "Play_Boat_Wading",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Boat_Wading",
+      "GUID": "{33B9772D-97E5-4E03-8F52-E73E3C5A5FB2}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "269337653",
+        "Language": "SFX",
+        "ShortName": "Reverie-Boat_Wading[LOOP].wav",
+        "Path": "SFX\\Reverie-Boat_Wading[LOOP]_075A6C54.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3177428469",
+        "Name": "Cave_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Cave_Reverb",
+        "GUID": "{ABB16B87-6456-4BCF-B27C-FB9EDF773517}"
+       }
+      ]
+     },
+     {
+      "Id": "3692107796",
+      "Name": "Play_Cave_Ambient",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Cave_Ambient",
+      "GUID": "{71C9F2DF-55F5-4836-BFA3-B3D8D356BC18}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "395546013",
+        "Language": "SFX",
+        "ShortName": "Water_Drip_03.wav",
+        "Path": "SFX\\Water_Drip_03_9ABA330A.wem"
+       },
+       {
+        "Id": "446173898",
+        "Language": "SFX",
+        "ShortName": "Water_Drip_01.wav",
+        "Path": "SFX\\Water_Drip_01_9ABA330A.wem"
+       },
+       {
+        "Id": "470876321",
+        "Language": "SFX",
+        "ShortName": "Water_Drip_06.wav",
+        "Path": "SFX\\Water_Drip_06_9ABA330A.wem"
+       },
+       {
+        "Id": "569814171",
+        "Language": "SFX",
+        "ShortName": "Water_Drip_04.wav",
+        "Path": "SFX\\Water_Drip_04_9ABA330A.wem"
+       },
+       {
+        "Id": "670910353",
+        "Language": "SFX",
+        "ShortName": "Water_Drip_05.wav",
+        "Path": "SFX\\Water_Drip_05_9ABA330A.wem"
+       },
+       {
+        "Id": "890067321",
+        "Language": "SFX",
+        "ShortName": "Water_Drip_02.wav",
+        "Path": "SFX\\Water_Drip_02_9ABA330A.wem"
+       },
+       {
+        "Id": "1036619544",
+        "Language": "SFX",
+        "ShortName": "Reverie-Cave_Ambient_01[LOOP].wav",
+        "Path": "SFX\\Reverie-Cave_Ambient_01[LOOP]_9ABA330A.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3488159267",
+      "Name": "Play_Cenote_Ambient",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Cenote_Ambient",
+      "GUID": "{EE82EBFC-6ECC-4C16-A2F2-E17D970FB8BA}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "140278530",
+        "Language": "SFX",
+        "ShortName": "Motmot_05.wav",
+        "Path": "SFX\\Motmot_05_9ABA330A.wem"
+       },
+       {
+        "Id": "391406486",
+        "Language": "SFX",
+        "ShortName": "Motmot_06.wav",
+        "Path": "SFX\\Motmot_06_9ABA330A.wem"
+       },
+       {
+        "Id": "450111459",
+        "Language": "SFX",
+        "ShortName": "Reverie-Cenote_Ambient_01[LOOP].wav",
+        "Path": "SFX\\Reverie-Cenote_Ambient_01[LOOP]_075A6C54.wem"
+       },
+       {
+        "Id": "494183785",
+        "Language": "SFX",
+        "ShortName": "Motmot_01.wav",
+        "Path": "SFX\\Motmot_01_9ABA330A.wem"
+       },
+       {
+        "Id": "580045510",
+        "Language": "SFX",
+        "ShortName": "Motmot_04.wav",
+        "Path": "SFX\\Motmot_04_9ABA330A.wem"
+       },
+       {
+        "Id": "583293190",
+        "Language": "SFX",
+        "ShortName": "Reverie-Bird_Call_01.wav",
+        "Path": "SFX\\Reverie-Bird_Call_01_9ABA330A.wem"
+       },
+       {
+        "Id": "631548905",
+        "Language": "SFX",
+        "ShortName": "Motmot_03.wav",
+        "Path": "SFX\\Motmot_03_9ABA330A.wem"
+       },
+       {
+        "Id": "798383048",
+        "Language": "SFX",
+        "ShortName": "Reverie-Bird_Call_02.wav",
+        "Path": "SFX\\Reverie-Bird_Call_02_9ABA330A.wem"
+       },
+       {
+        "Id": "800815148",
+        "Language": "SFX",
+        "ShortName": "Motmot_07.wav",
+        "Path": "SFX\\Motmot_07_9ABA330A.wem"
+       },
+       {
+        "Id": "863316664",
+        "Language": "SFX",
+        "ShortName": "Motmot_02.wav",
+        "Path": "SFX\\Motmot_02_9ABA330A.wem"
+       },
+       {
+        "Id": "984434486",
+        "Language": "SFX",
+        "ShortName": "Reverie-Cenote_Ambient_02[LOOP].wav",
+        "Path": "SFX\\Reverie-Cenote_Ambient_02[LOOP]_075A6C54.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3913889475",
+      "Name": "Play_Distant_Shore",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Distant_Shore",
+      "GUID": "{3A92A37A-56B2-4E32-8CD5-B88B490F2720}",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "419320786",
+        "Language": "SFX",
+        "ShortName": "Reverie-Distant_Shore_01[LOOP].wav",
+        "Path": "SFX\\Reverie-Distant_Shore_01[LOOP]_9ABA330A.wem"
+       },
+       {
+        "Id": "762089670",
+        "Language": "SFX",
+        "ShortName": "Reverie-Occasional_Wave_01.wav",
+        "Path": "SFX\\Reverie-Occasional_Wave_01_9ABA330A.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1602358412",
+      "Name": "Play_Footstep",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footstep",
+      "GUID": "{78C325A0-0522-4237-9457-2EF2ED395AC5}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.355561",
+      "DurationMax": "1.156884",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "102048234",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Grass_04.wav",
+        "Path": "SFX\\Reverie-Footsteps_Grass_04_9ABA330A.wem"
+       },
+       {
+        "Id": "110623919",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Grass_09.wav",
+        "Path": "SFX\\Reverie-Footsteps_Grass_09_9ABA330A.wem"
+       },
+       {
+        "Id": "111484945",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Water_02.wav",
+        "Path": "SFX\\Reverie-Footsteps_Water_02_9ABA330A.wem"
+       },
+       {
+        "Id": "129656882",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Water_07.wav",
+        "Path": "SFX\\Reverie-Footsteps_Water_07_9ABA330A.wem"
+       },
+       {
+        "Id": "158885810",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Water_04.wav",
+        "Path": "SFX\\Reverie-Footsteps_Water_04_9ABA330A.wem"
+       },
+       {
+        "Id": "209185863",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Gravel_04.wav",
+        "Path": "SFX\\Reverie-Footsteps_Gravel_04_9ABA330A.wem"
+       },
+       {
+        "Id": "209450012",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Water_08.wav",
+        "Path": "SFX\\Reverie-Footsteps_Water_08_9ABA330A.wem"
+       },
+       {
+        "Id": "225978460",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Water_05.wav",
+        "Path": "SFX\\Reverie-Footsteps_Water_05_9ABA330A.wem"
+       },
+       {
+        "Id": "301011992",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Gravel_02.wav",
+        "Path": "SFX\\Reverie-Footsteps_Gravel_02_9ABA330A.wem"
+       },
+       {
+        "Id": "340424136",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Grass_07.wav",
+        "Path": "SFX\\Reverie-Footsteps_Grass_07_9ABA330A.wem"
+       },
+       {
+        "Id": "344822341",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Water_01.wav",
+        "Path": "SFX\\Reverie-Footsteps_Water_01_9ABA330A.wem"
+       },
+       {
+        "Id": "361359406",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Water_09.wav",
+        "Path": "SFX\\Reverie-Footsteps_Water_09_9ABA330A.wem"
+       },
+       {
+        "Id": "378126434",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Grass_10.wav",
+        "Path": "SFX\\Reverie-Footsteps_Grass_10_9ABA330A.wem"
+       },
+       {
+        "Id": "586527996",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Water_03.wav",
+        "Path": "SFX\\Reverie-Footsteps_Water_03_9ABA330A.wem"
+       },
+       {
+        "Id": "610608631",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Gravel_01.wav",
+        "Path": "SFX\\Reverie-Footsteps_Gravel_01_9ABA330A.wem"
+       },
+       {
+        "Id": "619976003",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Gravel_05.wav",
+        "Path": "SFX\\Reverie-Footsteps_Gravel_05_9ABA330A.wem"
+       },
+       {
+        "Id": "678312899",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Water_12.wav",
+        "Path": "SFX\\Reverie-Footsteps_Water_12_9ABA330A.wem"
+       },
+       {
+        "Id": "771795146",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Grass_05.wav",
+        "Path": "SFX\\Reverie-Footsteps_Grass_05_9ABA330A.wem"
+       },
+       {
+        "Id": "777732565",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Gravel_03.wav",
+        "Path": "SFX\\Reverie-Footsteps_Gravel_03_9ABA330A.wem"
+       },
+       {
+        "Id": "811821000",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Grass_02.wav",
+        "Path": "SFX\\Reverie-Footsteps_Grass_02_9ABA330A.wem"
+       },
+       {
+        "Id": "812671445",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Water_11.wav",
+        "Path": "SFX\\Reverie-Footsteps_Water_11_9ABA330A.wem"
+       },
+       {
+        "Id": "852857501",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Grass_03.wav",
+        "Path": "SFX\\Reverie-Footsteps_Grass_03_9ABA330A.wem"
+       },
+       {
+        "Id": "873649963",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Gravel_06.wav",
+        "Path": "SFX\\Reverie-Footsteps_Gravel_06_9ABA330A.wem"
+       },
+       {
+        "Id": "881386844",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Water_06.wav",
+        "Path": "SFX\\Reverie-Footsteps_Water_06_9ABA330A.wem"
+       },
+       {
+        "Id": "891628710",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Grass_08.wav",
+        "Path": "SFX\\Reverie-Footsteps_Grass_08_9ABA330A.wem"
+       },
+       {
+        "Id": "1022312967",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Grass_06.wav",
+        "Path": "SFX\\Reverie-Footsteps_Grass_06_9ABA330A.wem"
+       },
+       {
+        "Id": "1046730012",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Water_10.wav",
+        "Path": "SFX\\Reverie-Footsteps_Water_10_9ABA330A.wem"
+       },
+       {
+        "Id": "1067690539",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_Grass_01.wav",
+        "Path": "SFX\\Reverie-Footsteps_Grass_01_9ABA330A.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{8697051C-7850-418F-8713-15997716A4FE}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{8697051C-7850-418F-8713-15997716A4FE}",
+        "Media": [
+         {
+          "Id": "102048234"
+         },
+         {
+          "Id": "110623919"
+         },
+         {
+          "Id": "340424136"
+         },
+         {
+          "Id": "378126434"
+         },
+         {
+          "Id": "771795146"
+         },
+         {
+          "Id": "811821000"
+         },
+         {
+          "Id": "852857501"
+         },
+         {
+          "Id": "891628710"
+         },
+         {
+          "Id": "1022312967"
+         },
+         {
+          "Id": "1067690539"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{71B97E48-AF49-401C-9912-74229FE65C03}",
+        "Media": [
+         {
+          "Id": "209185863"
+         },
+         {
+          "Id": "301011992"
+         },
+         {
+          "Id": "610608631"
+         },
+         {
+          "Id": "619976003"
+         },
+         {
+          "Id": "777732565"
+         },
+         {
+          "Id": "873649963"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{6B35DE74-D6FC-498A-8E8D-A40BE940B317}",
+        "Media": [
+         {
+          "Id": "111484945"
+         },
+         {
+          "Id": "129656882"
+         },
+         {
+          "Id": "158885810"
+         },
+         {
+          "Id": "209450012"
+         },
+         {
+          "Id": "225978460"
+         },
+         {
+          "Id": "344822341"
+         },
+         {
+          "Id": "361359406"
+         },
+         {
+          "Id": "586527996"
+         },
+         {
+          "Id": "678312899"
+         },
+         {
+          "Id": "812671445"
+         },
+         {
+          "Id": "881386844"
+         },
+         {
+          "Id": "1046730012"
+         }
+        ]
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3177428469",
+        "Name": "Cave_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Cave_Reverb",
+        "GUID": "{ABB16B87-6456-4BCF-B27C-FB9EDF773517}"
+       }
+      ]
+     },
+     {
+      "Id": "3206962000",
+      "Name": "Play_Forest_Ambient",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Forest_Ambient",
+      "GUID": "{F70E4354-4531-4E8A-A3AA-E28A61586CE8}",
+      "DurationType": "OneShot",
+      "DurationMin": "323.000000",
+      "DurationMax": "323.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "171515428",
+        "Language": "SFX",
+        "ShortName": "Reverie-Forest_Ambient_Wind_01[LOOP].wav",
+        "Path": "SFX\\Reverie-Forest_Ambient_Wind_01[LOOP]_9ABA330A.wem"
+       },
+       {
+        "Id": "301826469",
+        "Language": "SFX",
+        "ShortName": "Reverie-Forest_Ambient_01[LOOP].wav",
+        "Path": "SFX\\Reverie-Forest_Ambient_01[LOOP]_9ABA330A.wem"
+       },
+       {
+        "Id": "990220699",
+        "Language": "SFX",
+        "ShortName": "Reverie-Forest_Ambient_02[LOOP].wav",
+        "Path": "SFX\\Reverie-Forest_Ambient_02[LOOP]_9ABA330A.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2932040671",
+      "Name": "Play_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music",
+      "GUID": "{24069ED3-4EFB-40CC-847D-CB077ABEE675}",
+      "DurationType": "OneShot",
+      "DurationMin": "366.545471",
+      "DurationMax": "366.545471",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "771543799",
+        "Language": "SFX",
+        "ShortName": "Reverie_Cave_Collage_DRAFT3.wav",
+        "Path": "SFX\\Reverie_Cave_Collage_DRAFT3_075A6C54.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2190956745",
+      "Name": "Play_Reverie_Girl_Theme",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Reverie_Girl_Theme",
+      "GUID": "{6C2E6BF9-44E4-4321-9083-25BFAE8EE5CB}",
+      "DurationType": "OneShot",
+      "DurationMin": "135.735809",
+      "DurationMax": "135.735809",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "192943792",
+        "Language": "SFX",
+        "ShortName": "1 - Reverie_Girl_Theme_DRAFT_v1.wav",
+        "Path": "SFX\\1 - Reverie_Girl_Theme_DRAFT_v1_075A6C54.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2515930607",
+      "Name": "Play_Star_Emote_HurryUp",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Star_Emote_HurryUp",
+      "GUID": "{FB22BC62-66B3-46D4-A36E-E008E13B1488}",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.879083",
+      "DurationMax": "1.879083",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "125043996",
+        "Language": "SFX",
+        "ShortName": "Reverie-Star_HurryUp_01.wav",
+        "Path": "SFX\\Reverie-Star_HurryUp_01_9ABA330A.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2278146586",
+      "Name": "Play_Star_Emote_NoNo",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Star_Emote_NoNo",
+      "GUID": "{5943D494-2A8C-49CA-9B84-ECC2FCC33140}",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.969312",
+      "DurationMax": "1.304604",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "220228986",
+        "Language": "SFX",
+        "ShortName": "Reverie-Star_NoNo_01.wav",
+        "Path": "SFX\\Reverie-Star_NoNo_01_9ABA330A.wem"
+       },
+       {
+        "Id": "289328327",
+        "Language": "SFX",
+        "ShortName": "Reverie-Star_NoNo_02.wav",
+        "Path": "SFX\\Reverie-Star_NoNo_02_9ABA330A.wem"
+       }
+      ]
+     },
+     {
+      "Id": "394177638",
+      "Name": "Play_Star_Emote_Question",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Star_Emote_Question",
+      "GUID": "{3BF18954-C051-47C6-9304-98C801C6347B}",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.067812",
+      "DurationMax": "1.183729",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "889969323",
+        "Language": "SFX",
+        "ShortName": "Reverie-Star_Question_02.wav",
+        "Path": "SFX\\Reverie-Star_Question_02_9ABA330A.wem"
+       },
+       {
+        "Id": "951015423",
+        "Language": "SFX",
+        "ShortName": "Reverie-Star_Question_01.wav",
+        "Path": "SFX\\Reverie-Star_Question_01_9ABA330A.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1908953803",
+      "Name": "Play_Star_Idle",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Star_Idle",
+      "GUID": "{F0E29DEA-F011-4BC3-B661-0FE84D7DE43A}",
+      "MaxAttenuation": "2.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "335419434",
+        "Language": "SFX",
+        "ShortName": "Reverie-Star_Idle_02.wav",
+        "Path": "SFX\\Reverie-Star_Idle_02_9ABA330A.wem"
+       },
+       {
+        "Id": "533695356",
+        "Language": "SFX",
+        "ShortName": "Reverie-Star_Idle_03.wav",
+        "Path": "SFX\\Reverie-Star_Idle_03_9ABA330A.wem"
+       },
+       {
+        "Id": "693009781",
+        "Language": "SFX",
+        "ShortName": "Reverie-Star_Idle_04.wav",
+        "Path": "SFX\\Reverie-Star_Idle_04_9ABA330A.wem"
+       },
+       {
+        "Id": "884118639",
+        "Language": "SFX",
+        "ShortName": "Reverie-Star_Idle[LOOP].wav",
+        "Path": "SFX\\Reverie-Star_Idle[LOOP]_075A6C54.wem"
+       },
+       {
+        "Id": "885654490",
+        "Language": "SFX",
+        "ShortName": "Reverie-Star_Idle_01.wav",
+        "Path": "SFX\\Reverie-Star_Idle_01_9ABA330A.wem"
+       }
+      ]
+     },
+     {
+      "Id": "387097402",
+      "Name": "Play_Tree_Creacking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Tree_Creacking",
+      "GUID": "{5BEA8985-5FCE-4863-BB2A-39F043588039}",
+      "MaxAttenuation": "5.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "46437815",
+        "Language": "SFX",
+        "ShortName": "Reverie-Tree_Creaking_01.wav",
+        "Path": "SFX\\Reverie-Tree_Creaking_01_9ABA330A.wem"
+       },
+       {
+        "Id": "349603185",
+        "Language": "SFX",
+        "ShortName": "Reverie-Tree_Creaking_03.wav",
+        "Path": "SFX\\Reverie-Tree_Creaking_03_9ABA330A.wem"
+       },
+       {
+        "Id": "552748757",
+        "Language": "SFX",
+        "ShortName": "Reverie-Tree_Creaking_04.wav",
+        "Path": "SFX\\Reverie-Tree_Creaking_04_9ABA330A.wem"
+       },
+       {
+        "Id": "677189603",
+        "Language": "SFX",
+        "ShortName": "Reverie-Tree_Creaking_02.wav",
+        "Path": "SFX\\Reverie-Tree_Creaking_02_9ABA330A.wem"
+       },
+       {
+        "Id": "948381666",
+        "Language": "SFX",
+        "ShortName": "Reverie-Tree_Creaking_06.wav",
+        "Path": "SFX\\Reverie-Tree_Creaking_06_9ABA330A.wem"
+       },
+       {
+        "Id": "1000999076",
+        "Language": "SFX",
+        "ShortName": "Reverie-Tree_Creaking_05.wav",
+        "Path": "SFX\\Reverie-Tree_Creaking_05_9ABA330A.wem"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3964766495",
+      "Name": "Floor_Material",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Floor_Material",
+      "GUID": "{2FE8E6AE-75F3-46EE-AF5E-C92B6404A184}",
+      "Switches": [
+       {
+        "Id": "2185786256",
+        "Name": "Gravel",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Floor_Material\\Gravel",
+        "GUID": "{71B97E48-AF49-401C-9912-74229FE65C03}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Floor_Material\\Grass",
+        "GUID": "{8697051C-7850-418F-8713-15997716A4FE}"
+       },
+       {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Floor_Material\\Water",
+        "GUID": "{6B35DE74-D6FC-498A-8E8D-A40BE940B317}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
