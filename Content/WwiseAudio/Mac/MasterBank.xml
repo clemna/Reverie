@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>E:\Game Development\Reverie\Reverie_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>E:\Game Development\00 - Git Projects\Reverie\Content\WwiseAudio\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Hector\Desktop\Reverie\Reverie_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Hector\Desktop\Reverie\Reverie_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Hector\Desktop\Git\Reverie\Content\WwiseAudio\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\Game Development\Reverie\Reverie_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Hector\Desktop\Reverie\Reverie_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1542108333" GUID="{CA1DDA29-E66E-4FBE-B121-02F04DDDB158}" Language="SFX" Hash="1692343791">
+		<SoundBank Id="1542108333" GUID="{CA1DDA29-E66E-4FBE-B121-02F04DDDB158}" Language="SFX" Hash="223953831">
 			<ObjectPath>\SoundBanks\Default Work Unit\MasterBank</ObjectPath>
 			<ShortName>MasterBank</ShortName>
 			<Path>MasterBank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="350586603" Name="Play_Boat_Wading" ObjectPath="\Events\Default Work Unit\Play_Boat_Wading" GUID="{33B9772D-97E5-4E03-8F52-E73E3C5A5FB2}" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="269337653" Language="SFX">
-							<ShortName>Reverie-Boat_Wading[LOOP].wav</ShortName>
-							<Path>SFX\Reverie-Boat_Wading[LOOP]_075A6C54.wem</Path>
+						<File Id="269337654" Language="SFX">
+							<ShortName>Reverie-Boat_Wading_LOOP.wav</ShortName>
+							<Path>SFX\Reverie-Boat_Wading_LOOP_075A6C54.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -26,35 +26,42 @@
 				</Event>
 				<Event Id="3692107796" Name="Play_Cave_Ambient" ObjectPath="\Events\Default Work Unit\Play_Cave_Ambient" GUID="{71C9F2DF-55F5-4836-BFA3-B3D8D356BC18}" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="395546013" Language="SFX">
-							<ShortName>Water_Drip_03.wav</ShortName>
-							<Path>SFX\Water_Drip_03_9ABA330A.wem</Path>
+						<File Id="24430823" Language="SFX">
+							<ShortName>Reverie-Cave_Drip_02.wav</ShortName>
+							<Path>SFX\Reverie-Cave_Drip_02_9ABA330A.wem</Path>
 						</File>
-						<File Id="446173898" Language="SFX">
-							<ShortName>Water_Drip_01.wav</ShortName>
-							<Path>SFX\Water_Drip_01_9ABA330A.wem</Path>
+						<File Id="213957780" Language="SFX">
+							<ShortName>Reverie-Cave_Drip_04.wav</ShortName>
+							<Path>SFX\Reverie-Cave_Drip_04_9ABA330A.wem</Path>
 						</File>
-						<File Id="470876321" Language="SFX">
-							<ShortName>Water_Drip_06.wav</ShortName>
-							<Path>SFX\Water_Drip_06_9ABA330A.wem</Path>
+						<File Id="349214809" Language="SFX">
+							<ShortName>Reverie-Cave_Drip_05.wav</ShortName>
+							<Path>SFX\Reverie-Cave_Drip_05_9ABA330A.wem</Path>
 						</File>
-						<File Id="569814171" Language="SFX">
-							<ShortName>Water_Drip_04.wav</ShortName>
-							<Path>SFX\Water_Drip_04_9ABA330A.wem</Path>
+						<File Id="362973121" Language="SFX">
+							<ShortName>Reverie-Cave_Drip_06.wav</ShortName>
+							<Path>SFX\Reverie-Cave_Drip_06_9ABA330A.wem</Path>
 						</File>
-						<File Id="670910353" Language="SFX">
-							<ShortName>Water_Drip_05.wav</ShortName>
-							<Path>SFX\Water_Drip_05_9ABA330A.wem</Path>
+						<File Id="507117369" Language="SFX">
+							<ShortName>Reverie-Cave_Drip_03.wav</ShortName>
+							<Path>SFX\Reverie-Cave_Drip_03_9ABA330A.wem</Path>
 						</File>
-						<File Id="890067321" Language="SFX">
-							<ShortName>Water_Drip_02.wav</ShortName>
-							<Path>SFX\Water_Drip_02_9ABA330A.wem</Path>
+						<File Id="648222520" Language="SFX">
+							<ShortName>Reverie-Cave_Drip_07.wav</ShortName>
+							<Path>SFX\Reverie-Cave_Drip_07_9ABA330A.wem</Path>
 						</File>
-						<File Id="1036619544" Language="SFX">
-							<ShortName>Reverie-Cave_Ambient_01[LOOP].wav</ShortName>
-							<Path>SFX\Reverie-Cave_Ambient_01[LOOP]_9ABA330A.wem</Path>
+						<File Id="1036619545" Language="SFX">
+							<ShortName>Reverie-Cave_Ambient_01_LOOP.wav</ShortName>
+							<Path>SFX\Reverie-Cave_Ambient_01_LOOP_9ABA330A.wem</Path>
+						</File>
+						<File Id="1051090502" Language="SFX">
+							<ShortName>Reverie-Cave_Drip_01.wav</ShortName>
+							<Path>SFX\Reverie-Cave_Drip_01_9ABA330A.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3177428469" Name="Cave_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Cave_Reverb" GUID="{ABB16B87-6456-4BCF-B27C-FB9EDF773517}"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3488159267" Name="Play_Cenote_Ambient" ObjectPath="\Events\Default Work Unit\Play_Cenote_Ambient" GUID="{EE82EBFC-6ECC-4C16-A2F2-E17D970FB8BA}" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -66,9 +73,9 @@
 							<ShortName>Motmot_06.wav</ShortName>
 							<Path>SFX\Motmot_06_9ABA330A.wem</Path>
 						</File>
-						<File Id="450111459" Language="SFX">
-							<ShortName>Reverie-Cenote_Ambient_01[LOOP].wav</ShortName>
-							<Path>SFX\Reverie-Cenote_Ambient_01[LOOP]_075A6C54.wem</Path>
+						<File Id="450111460" Language="SFX">
+							<ShortName>Reverie-Cenote_Ambient_01_LOOP.wav</ShortName>
+							<Path>SFX\Reverie-Cenote_Ambient_01_LOOP_075A6C54.wem</Path>
 						</File>
 						<File Id="494183785" Language="SFX">
 							<ShortName>Motmot_01.wav</ShortName>
@@ -98,17 +105,17 @@
 							<ShortName>Motmot_02.wav</ShortName>
 							<Path>SFX\Motmot_02_9ABA330A.wem</Path>
 						</File>
-						<File Id="984434486" Language="SFX">
-							<ShortName>Reverie-Cenote_Ambient_02[LOOP].wav</ShortName>
-							<Path>SFX\Reverie-Cenote_Ambient_02[LOOP]_075A6C54.wem</Path>
+						<File Id="984434487" Language="SFX">
+							<ShortName>Reverie-Cenote_Ambient_02_LOOP.wav</ShortName>
+							<Path>SFX\Reverie-Cenote_Ambient_02_LOOP_075A6C54.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3913889475" Name="Play_Distant_Shore" ObjectPath="\Events\Default Work Unit\Play_Distant_Shore" GUID="{3A92A37A-56B2-4E32-8CD5-B88B490F2720}" MaxAttenuation="100.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="419320786" Language="SFX">
-							<ShortName>Reverie-Distant_Shore_01[LOOP].wav</ShortName>
-							<Path>SFX\Reverie-Distant_Shore_01[LOOP]_9ABA330A.wem</Path>
+						<File Id="419320787" Language="SFX">
+							<ShortName>Reverie-Distant_Shore_01_LOOP.wav</ShortName>
+							<Path>SFX\Reverie-Distant_Shore_01_LOOP_9ABA330A.wem</Path>
 						</File>
 						<File Id="762089670" Language="SFX">
 							<ShortName>Reverie-Occasional_Wave_01.wav</ShortName>
@@ -116,8 +123,12 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1602358412" Name="Play_Footstep" ObjectPath="\Events\Default Work Unit\Play_Footstep" GUID="{78C325A0-0522-4237-9457-2EF2ED395AC5}" DurationType="OneShot" DurationMin="0.355561" DurationMax="1.156884">
+				<Event Id="1602358412" Name="Play_Footstep" ObjectPath="\Events\Default Work Unit\Play_Footstep" GUID="{78C325A0-0522-4237-9457-2EF2ED395AC5}" DurationType="OneShot" DurationMin="0.168324" DurationMax="1.156884">
 					<IncludedMemoryFiles>
+						<File Id="75537005" Language="SFX">
+							<ShortName>Reverie-Footsteps_Wood_06.wav</ShortName>
+							<Path>SFX\Reverie-Footsteps_Wood_06_9ABA330A.wem</Path>
+						</File>
 						<File Id="102048234" Language="SFX">
 							<ShortName>Reverie-Footsteps_Grass_04.wav</ShortName>
 							<Path>SFX\Reverie-Footsteps_Grass_04_9ABA330A.wem</Path>
@@ -130,9 +141,17 @@
 							<ShortName>Reverie-Footsteps_Water_02.wav</ShortName>
 							<Path>SFX\Reverie-Footsteps_Water_02_9ABA330A.wem</Path>
 						</File>
+						<File Id="113924279" Language="SFX">
+							<ShortName>Reverie-Footsteps_Sand_05.wav</ShortName>
+							<Path>SFX\Reverie-Footsteps_Sand_05_9ABA330A.wem</Path>
+						</File>
 						<File Id="129656882" Language="SFX">
 							<ShortName>Reverie-Footsteps_Water_07.wav</ShortName>
 							<Path>SFX\Reverie-Footsteps_Water_07_9ABA330A.wem</Path>
+						</File>
+						<File Id="139094833" Language="SFX">
+							<ShortName>Reverie-Footsteps_Wood_03.wav</ShortName>
+							<Path>SFX\Reverie-Footsteps_Wood_03_9ABA330A.wem</Path>
 						</File>
 						<File Id="158885810" Language="SFX">
 							<ShortName>Reverie-Footsteps_Water_04.wav</ShortName>
@@ -146,9 +165,21 @@
 							<ShortName>Reverie-Footsteps_Water_08.wav</ShortName>
 							<Path>SFX\Reverie-Footsteps_Water_08_9ABA330A.wem</Path>
 						</File>
+						<File Id="218294020" Language="SFX">
+							<ShortName>Reverie-Footsteps_Sand_02.wav</ShortName>
+							<Path>SFX\Reverie-Footsteps_Sand_02_9ABA330A.wem</Path>
+						</File>
 						<File Id="225978460" Language="SFX">
 							<ShortName>Reverie-Footsteps_Water_05.wav</ShortName>
 							<Path>SFX\Reverie-Footsteps_Water_05_9ABA330A.wem</Path>
+						</File>
+						<File Id="292696711" Language="SFX">
+							<ShortName>Reverie-Footsteps_Sand_03.wav</ShortName>
+							<Path>SFX\Reverie-Footsteps_Sand_03_9ABA330A.wem</Path>
+						</File>
+						<File Id="297356201" Language="SFX">
+							<ShortName>Reverie-Footsteps_Sand_04.wav</ShortName>
+							<Path>SFX\Reverie-Footsteps_Sand_04_9ABA330A.wem</Path>
 						</File>
 						<File Id="301011992" Language="SFX">
 							<ShortName>Reverie-Footsteps_Gravel_02.wav</ShortName>
@@ -166,21 +197,61 @@
 							<ShortName>Reverie-Footsteps_Water_09.wav</ShortName>
 							<Path>SFX\Reverie-Footsteps_Water_09_9ABA330A.wem</Path>
 						</File>
+						<File Id="366913200" Language="SFX">
+							<ShortName>Reverie-Footsteps_Wood_07.wav</ShortName>
+							<Path>SFX\Reverie-Footsteps_Wood_07_9ABA330A.wem</Path>
+						</File>
 						<File Id="378126434" Language="SFX">
 							<ShortName>Reverie-Footsteps_Grass_10.wav</ShortName>
 							<Path>SFX\Reverie-Footsteps_Grass_10_9ABA330A.wem</Path>
+						</File>
+						<File Id="539514201" Language="SFX">
+							<ShortName>Reverie-Footsteps_Wood_04.wav</ShortName>
+							<Path>SFX\Reverie-Footsteps_Wood_04_9ABA330A.wem</Path>
+						</File>
+						<File Id="555190685" Language="SFX">
+							<ShortName>Reverie-Footsteps_Stone_04.wav</ShortName>
+							<Path>SFX\Reverie-Footsteps_Stone_04_9ABA330A.wem</Path>
+						</File>
+						<File Id="558763824" Language="SFX">
+							<ShortName>Reverie-Footsteps_Stone_02.wav</ShortName>
+							<Path>SFX\Reverie-Footsteps_Stone_02_9ABA330A.wem</Path>
 						</File>
 						<File Id="586527996" Language="SFX">
 							<ShortName>Reverie-Footsteps_Water_03.wav</ShortName>
 							<Path>SFX\Reverie-Footsteps_Water_03_9ABA330A.wem</Path>
 						</File>
+						<File Id="590217135" Language="SFX">
+							<ShortName>Reverie-Footsteps_Stone_01.wav</ShortName>
+							<Path>SFX\Reverie-Footsteps_Stone_01_9ABA330A.wem</Path>
+						</File>
+						<File Id="597683995" Language="SFX">
+							<ShortName>Reverie-Footsteps_Sand_01.wav</ShortName>
+							<Path>SFX\Reverie-Footsteps_Sand_01_9ABA330A.wem</Path>
+						</File>
 						<File Id="610608631" Language="SFX">
 							<ShortName>Reverie-Footsteps_Gravel_01.wav</ShortName>
 							<Path>SFX\Reverie-Footsteps_Gravel_01_9ABA330A.wem</Path>
 						</File>
+						<File Id="613878853" Language="SFX">
+							<ShortName>Reverie-Footsteps_Stone_07.wav</ShortName>
+							<Path>SFX\Reverie-Footsteps_Stone_07_9ABA330A.wem</Path>
+						</File>
 						<File Id="619976003" Language="SFX">
 							<ShortName>Reverie-Footsteps_Gravel_05.wav</ShortName>
 							<Path>SFX\Reverie-Footsteps_Gravel_05_9ABA330A.wem</Path>
+						</File>
+						<File Id="656891465" Language="SFX">
+							<ShortName>Reverie-Footsteps_Wood_02.wav</ShortName>
+							<Path>SFX\Reverie-Footsteps_Wood_02_9ABA330A.wem</Path>
+						</File>
+						<File Id="671805108" Language="SFX">
+							<ShortName>Reverie-Footsteps_Wood_01.wav</ShortName>
+							<Path>SFX\Reverie-Footsteps_Wood_01_9ABA330A.wem</Path>
+						</File>
+						<File Id="672653196" Language="SFX">
+							<ShortName>Reverie-Footsteps_Stone_06.wav</ShortName>
+							<Path>SFX\Reverie-Footsteps_Stone_06_9ABA330A.wem</Path>
 						</File>
 						<File Id="678312899" Language="SFX">
 							<ShortName>Reverie-Footsteps_Water_12.wav</ShortName>
@@ -202,6 +273,14 @@
 							<ShortName>Reverie-Footsteps_Water_11.wav</ShortName>
 							<Path>SFX\Reverie-Footsteps_Water_11_9ABA330A.wem</Path>
 						</File>
+						<File Id="813706143" Language="SFX">
+							<ShortName>Reverie-Footsteps_Stone_03.wav</ShortName>
+							<Path>SFX\Reverie-Footsteps_Stone_03_9ABA330A.wem</Path>
+						</File>
+						<File Id="833843366" Language="SFX">
+							<ShortName>Reverie-Footsteps_Wood_08.wav</ShortName>
+							<Path>SFX\Reverie-Footsteps_Wood_08_9ABA330A.wem</Path>
+						</File>
 						<File Id="852857501" Language="SFX">
 							<ShortName>Reverie-Footsteps_Grass_03.wav</ShortName>
 							<Path>SFX\Reverie-Footsteps_Grass_03_9ABA330A.wem</Path>
@@ -209,6 +288,10 @@
 						<File Id="873649963" Language="SFX">
 							<ShortName>Reverie-Footsteps_Gravel_06.wav</ShortName>
 							<Path>SFX\Reverie-Footsteps_Gravel_06_9ABA330A.wem</Path>
+						</File>
+						<File Id="874160186" Language="SFX">
+							<ShortName>Reverie-Footsteps_Stone_05.wav</ShortName>
+							<Path>SFX\Reverie-Footsteps_Stone_05_9ABA330A.wem</Path>
 						</File>
 						<File Id="881386844" Language="SFX">
 							<ShortName>Reverie-Footsteps_Water_06.wav</ShortName>
@@ -218,9 +301,17 @@
 							<ShortName>Reverie-Footsteps_Grass_08.wav</ShortName>
 							<Path>SFX\Reverie-Footsteps_Grass_08_9ABA330A.wem</Path>
 						</File>
+						<File Id="977912613" Language="SFX">
+							<ShortName>Reverie-Footsteps_Sand_06.wav</ShortName>
+							<Path>SFX\Reverie-Footsteps_Sand_06_9ABA330A.wem</Path>
+						</File>
 						<File Id="1022312967" Language="SFX">
 							<ShortName>Reverie-Footsteps_Grass_06.wav</ShortName>
 							<Path>SFX\Reverie-Footsteps_Grass_06_9ABA330A.wem</Path>
+						</File>
+						<File Id="1027013280" Language="SFX">
+							<ShortName>Reverie-Footsteps_Wood_05.wav</ShortName>
+							<Path>SFX\Reverie-Footsteps_Wood_05_9ABA330A.wem</Path>
 						</File>
 						<File Id="1046730012" Language="SFX">
 							<ShortName>Reverie-Footsteps_Water_10.wav</ShortName>
@@ -273,6 +364,39 @@
 								<File Id="1046730012"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{40C117B8-3365-4E80-B9B1-9CE9227507A6}">
+							<Media>
+								<File Id="75537005"/>
+								<File Id="139094833"/>
+								<File Id="366913200"/>
+								<File Id="539514201"/>
+								<File Id="656891465"/>
+								<File Id="671805108"/>
+								<File Id="833843366"/>
+								<File Id="1027013280"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2836DFBA-155A-4E36-8585-926856B388B7}">
+							<Media>
+								<File Id="555190685"/>
+								<File Id="558763824"/>
+								<File Id="590217135"/>
+								<File Id="613878853"/>
+								<File Id="672653196"/>
+								<File Id="813706143"/>
+								<File Id="874160186"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{905FE1F7-BD94-4FC5-982D-B5EE8833346F}">
+							<Media>
+								<File Id="113924279"/>
+								<File Id="218294020"/>
+								<File Id="292696711"/>
+								<File Id="297356201"/>
+								<File Id="597683995"/>
+								<File Id="977912613"/>
+							</Media>
+						</SwitchContainer>
 					</SwitchContainers>
 					<AuxBusSends>
 						<AuxBus Id="3177428469" Name="Cave_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Cave_Reverb" GUID="{ABB16B87-6456-4BCF-B27C-FB9EDF773517}"/>
@@ -280,17 +404,33 @@
 				</Event>
 				<Event Id="3206962000" Name="Play_Forest_Ambient" ObjectPath="\Events\Default Work Unit\Play_Forest_Ambient" GUID="{F70E4354-4531-4E8A-A3AA-E28A61586CE8}" DurationType="OneShot" DurationMin="323.000000" DurationMax="323.000000">
 					<IncludedMemoryFiles>
-						<File Id="171515428" Language="SFX">
-							<ShortName>Reverie-Forest_Ambient_Wind_01[LOOP].wav</ShortName>
-							<Path>SFX\Reverie-Forest_Ambient_Wind_01[LOOP]_9ABA330A.wem</Path>
+						<File Id="171515429" Language="SFX">
+							<ShortName>Reverie-Forest_Ambient_Wind_01_LOOP.wav</ShortName>
+							<Path>SFX\Reverie-Forest_Ambient_Wind_01_LOOP_9ABA330A.wem</Path>
 						</File>
-						<File Id="301826469" Language="SFX">
-							<ShortName>Reverie-Forest_Ambient_01[LOOP].wav</ShortName>
-							<Path>SFX\Reverie-Forest_Ambient_01[LOOP]_9ABA330A.wem</Path>
+						<File Id="301826470" Language="SFX">
+							<ShortName>Reverie-Forest_Ambient_01_LOOP.wav</ShortName>
+							<Path>SFX\Reverie-Forest_Ambient_01_LOOP_9ABA330A.wem</Path>
 						</File>
-						<File Id="990220699" Language="SFX">
-							<ShortName>Reverie-Forest_Ambient_02[LOOP].wav</ShortName>
-							<Path>SFX\Reverie-Forest_Ambient_02[LOOP]_9ABA330A.wem</Path>
+						<File Id="990220700" Language="SFX">
+							<ShortName>Reverie-Forest_Ambient_02_LOOP.wav</ShortName>
+							<Path>SFX\Reverie-Forest_Ambient_02_LOOP_9ABA330A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4237703228" Name="Play_Music1" ObjectPath="\Events\Default Work Unit\Play_Music1" GUID="{910D42D3-626C-41BB-BA8F-AA66DA744064}" DurationType="OneShot" DurationMin="135.735809" DurationMax="135.735809">
+					<IncludedMemoryFiles>
+						<File Id="192943792" Language="SFX">
+							<ShortName>1 - Reverie_Girl_Theme_DRAFT_v1.wav</ShortName>
+							<Path>SFX\1 - Reverie_Girl_Theme_DRAFT_v1_075A6C54.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4237703231" Name="Play_Music2" ObjectPath="\Events\Default Work Unit\Play_Music2" GUID="{01320111-D96F-4DF1-B50B-288BC98A9BB5}" DurationType="OneShot" DurationMin="240.096512" DurationMax="240.096512">
+					<IncludedMemoryFiles>
+						<File Id="38885168" Language="SFX">
+							<ShortName>Reverie_Forest_DRAFT_v1.wav</ShortName>
+							<Path>SFX\Reverie_Forest_DRAFT_v1_075A6C54.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -349,9 +489,9 @@
 							<ShortName>Reverie-Star_Idle_04.wav</ShortName>
 							<Path>SFX\Reverie-Star_Idle_04_9ABA330A.wem</Path>
 						</File>
-						<File Id="884118639" Language="SFX">
-							<ShortName>Reverie-Star_Idle[LOOP].wav</ShortName>
-							<Path>SFX\Reverie-Star_Idle[LOOP]_075A6C54.wem</Path>
+						<File Id="884118640" Language="SFX">
+							<ShortName>Reverie-Star_Idle_LOOP.wav</ShortName>
+							<Path>SFX\Reverie-Star_Idle_LOOP_075A6C54.wem</Path>
 						</File>
 						<File Id="885654490" Language="SFX">
 							<ShortName>Reverie-Star_Idle_01.wav</ShortName>
@@ -393,6 +533,23 @@
 						<AuxBus Id="3177428469" Name="Cave_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb\Cave_Reverb" GUID="{ABB16B87-6456-4BCF-B27C-FB9EDF773517}"/>
 					</AuxBusSends>
 				</Event>
+				<Event Id="467174588" Name="Play_Waterfall" ObjectPath="\Events\Default Work Unit\Play_Waterfall" GUID="{FF41A2AD-F877-4257-A8DE-6F8116BF1649}" MaxAttenuation="5.000000" DurationType="OneShot" DurationMin="46.000103" DurationMax="46.000103">
+					<IncludedMemoryFiles>
+						<File Id="470673336" Language="SFX">
+							<ShortName>Reverie-Waterfall_LOOP.wav</ShortName>
+							<Path>SFX\Reverie-Waterfall_LOOP_9ABA330A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2129946869" Name="Stop_Boat_Wading" ObjectPath="\Events\Default Work Unit\Stop_Boat_Wading" GUID="{0D4812D3-81E4-4092-A0ED-4665B8A445AB}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2059401670" Name="Stop_Cave_Ambient" ObjectPath="\Events\Default Work Unit\Stop_Cave_Ambient" GUID="{E97808C4-2A57-4D62-863D-B70E4D83BA62}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="344883609" Name="Stop_Cenote_Ambient" ObjectPath="\Events\Default Work Unit\Stop_Cenote_Ambient" GUID="{DECF33F2-A635-40FA-BE4D-7804556C4B1E}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1491101445" Name="Stop_Distant_Shore" ObjectPath="\Events\Default Work Unit\Stop_Distant_Shore" GUID="{60271590-4C0A-4CAC-BE98-4F5956659728}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="705940322" Name="Stop_Forest_Ambient" ObjectPath="\Events\Default Work Unit\Stop_Forest_Ambient" GUID="{21C637E6-F56F-47F8-BF36-9BB9D7FCA18E}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3034517322" Name="Stop_Music1" ObjectPath="\Events\Default Work Unit\Stop_Music1" GUID="{A716A11B-A062-4900-ACCF-2DB66D3EF33B}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3034517321" Name="Stop_Music2" ObjectPath="\Events\Default Work Unit\Stop_Music2" GUID="{026DD7F5-D738-4AC1-BDA7-25FD17F4857F}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1750902384" Name="Stop_Tree_Creacking" ObjectPath="\Events\Default Work Unit\Stop_Tree_Creacking" GUID="{F54F4114-83C2-4638-A9A8-B781E09A493C}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2687305538" Name="Stop_Waterfall" ObjectPath="\Events\Default Work Unit\Stop_Waterfall" GUID="{29FF0D9D-68A0-45AF-8121-B9E9251F80B1}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<SwitchGroups>
 				<SwitchGroup Id="3964766495" Name="Floor_Material" ObjectPath="\Switches\Default Work Unit\Floor_Material" GUID="{2FE8E6AE-75F3-46EE-AF5E-C92B6404A184}">
@@ -400,6 +557,9 @@
 						<Switch Id="2185786256" Name="Gravel" ObjectPath="\Switches\Default Work Unit\Floor_Material\Gravel" GUID="{71B97E48-AF49-401C-9912-74229FE65C03}"/>
 						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Floor_Material\Grass" GUID="{8697051C-7850-418F-8713-15997716A4FE}"/>
 						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\Floor_Material\Water" GUID="{6B35DE74-D6FC-498A-8E8D-A40BE940B317}"/>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Floor_Material\Stone" GUID="{2836DFBA-155A-4E36-8585-926856B388B7}"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Floor_Material\Wood" GUID="{40C117B8-3365-4E80-B9B1-9CE9227507A6}"/>
+						<Switch Id="803837735" Name="Sand" ObjectPath="\Switches\Default Work Unit\Floor_Material\Sand" GUID="{905FE1F7-BD94-4FC5-982D-B5EE8833346F}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
