@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "E:\\Game Development\\Reverie\\Reverie_WwiseProject\\",
-   "SourceFilesRoot": "E:\\Game Development\\Reverie\\Reverie_WwiseProject\\.cache\\Mac\\",
-   "SoundBanksRoot": "E:\\Game Development\\00 - Git Projects\\Reverie\\Content\\WwiseBanks\\Mac\\",
+   "ProjectRoot": "C:\\Users\\Hector\\Desktop\\Reverie\\Reverie_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\Hector\\Desktop\\Reverie\\Reverie_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "C:\\Users\\Hector\\Desktop\\Git\\Reverie\\Content\\WwiseBanks\\Mac\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "E:\\Game Development\\Reverie\\Reverie_WwiseProject\\GeneratedSoundBanks\\Mac"
+   "ExternalSourcesOutputRoot": "C:\\Users\\Hector\\Desktop\\Reverie\\Reverie_WwiseProject\\GeneratedSoundBanks\\Mac"
   },
   "SoundBanks": [
    {
