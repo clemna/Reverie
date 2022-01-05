@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>E:\Game Development\Reverie\Reverie_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>E:\Game Development\00 - Git Projects\Reverie\Content\WwiseBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Hector\Desktop\Reverie\Reverie_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Hector\Desktop\Reverie\Reverie_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Hector\Desktop\Git\Reverie\Content\WwiseBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\Game Development\Reverie\Reverie_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Hector\Desktop\Reverie\Reverie_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1542108333" GUID="{CA1DDA29-E66E-4FBE-B121-02F04DDDB158}" Language="SFX" Hash="3628221461">
+		<SoundBank Id="1542108333" GUID="{CA1DDA29-E66E-4FBE-B121-02F04DDDB158}" Language="SFX" Hash="223953831">
 			<ObjectPath>\SoundBanks\Default Work Unit\MasterBank</ObjectPath>
 			<ShortName>MasterBank</ShortName>
 			<Path>MasterBank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="350586603" Name="Play_Boat_Wading" ObjectPath="\Events\Default Work Unit\Play_Boat_Wading" GUID="{33B9772D-97E5-4E03-8F52-E73E3C5A5FB2}" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="269337653" Language="SFX">
-							<ShortName>Reverie-Boat_Wading[LOOP].wav</ShortName>
-							<Path>SFX\Reverie-Boat_Wading[LOOP]_075A6C54.wem</Path>
+						<File Id="269337654" Language="SFX">
+							<ShortName>Reverie-Boat_Wading_LOOP.wav</ShortName>
+							<Path>SFX\Reverie-Boat_Wading_LOOP_075A6C54.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -50,9 +50,9 @@
 							<ShortName>Reverie-Cave_Drip_07.wav</ShortName>
 							<Path>SFX\Reverie-Cave_Drip_07_9ABA330A.wem</Path>
 						</File>
-						<File Id="1036619544" Language="SFX">
-							<ShortName>Reverie-Cave_Ambient_01[LOOP].wav</ShortName>
-							<Path>SFX\Reverie-Cave_Ambient_01[LOOP]_9ABA330A.wem</Path>
+						<File Id="1036619545" Language="SFX">
+							<ShortName>Reverie-Cave_Ambient_01_LOOP.wav</ShortName>
+							<Path>SFX\Reverie-Cave_Ambient_01_LOOP_9ABA330A.wem</Path>
 						</File>
 						<File Id="1051090502" Language="SFX">
 							<ShortName>Reverie-Cave_Drip_01.wav</ShortName>
@@ -73,9 +73,9 @@
 							<ShortName>Motmot_06.wav</ShortName>
 							<Path>SFX\Motmot_06_9ABA330A.wem</Path>
 						</File>
-						<File Id="450111459" Language="SFX">
-							<ShortName>Reverie-Cenote_Ambient_01[LOOP].wav</ShortName>
-							<Path>SFX\Reverie-Cenote_Ambient_01[LOOP]_075A6C54.wem</Path>
+						<File Id="450111460" Language="SFX">
+							<ShortName>Reverie-Cenote_Ambient_01_LOOP.wav</ShortName>
+							<Path>SFX\Reverie-Cenote_Ambient_01_LOOP_075A6C54.wem</Path>
 						</File>
 						<File Id="494183785" Language="SFX">
 							<ShortName>Motmot_01.wav</ShortName>
@@ -105,17 +105,17 @@
 							<ShortName>Motmot_02.wav</ShortName>
 							<Path>SFX\Motmot_02_9ABA330A.wem</Path>
 						</File>
-						<File Id="984434486" Language="SFX">
-							<ShortName>Reverie-Cenote_Ambient_02[LOOP].wav</ShortName>
-							<Path>SFX\Reverie-Cenote_Ambient_02[LOOP]_075A6C54.wem</Path>
+						<File Id="984434487" Language="SFX">
+							<ShortName>Reverie-Cenote_Ambient_02_LOOP.wav</ShortName>
+							<Path>SFX\Reverie-Cenote_Ambient_02_LOOP_075A6C54.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3913889475" Name="Play_Distant_Shore" ObjectPath="\Events\Default Work Unit\Play_Distant_Shore" GUID="{3A92A37A-56B2-4E32-8CD5-B88B490F2720}" MaxAttenuation="100.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="419320786" Language="SFX">
-							<ShortName>Reverie-Distant_Shore_01[LOOP].wav</ShortName>
-							<Path>SFX\Reverie-Distant_Shore_01[LOOP]_9ABA330A.wem</Path>
+						<File Id="419320787" Language="SFX">
+							<ShortName>Reverie-Distant_Shore_01_LOOP.wav</ShortName>
+							<Path>SFX\Reverie-Distant_Shore_01_LOOP_9ABA330A.wem</Path>
 						</File>
 						<File Id="762089670" Language="SFX">
 							<ShortName>Reverie-Occasional_Wave_01.wav</ShortName>
@@ -404,17 +404,17 @@
 				</Event>
 				<Event Id="3206962000" Name="Play_Forest_Ambient" ObjectPath="\Events\Default Work Unit\Play_Forest_Ambient" GUID="{F70E4354-4531-4E8A-A3AA-E28A61586CE8}" DurationType="OneShot" DurationMin="323.000000" DurationMax="323.000000">
 					<IncludedMemoryFiles>
-						<File Id="171515428" Language="SFX">
-							<ShortName>Reverie-Forest_Ambient_Wind_01[LOOP].wav</ShortName>
-							<Path>SFX\Reverie-Forest_Ambient_Wind_01[LOOP]_9ABA330A.wem</Path>
+						<File Id="171515429" Language="SFX">
+							<ShortName>Reverie-Forest_Ambient_Wind_01_LOOP.wav</ShortName>
+							<Path>SFX\Reverie-Forest_Ambient_Wind_01_LOOP_9ABA330A.wem</Path>
 						</File>
-						<File Id="301826469" Language="SFX">
-							<ShortName>Reverie-Forest_Ambient_01[LOOP].wav</ShortName>
-							<Path>SFX\Reverie-Forest_Ambient_01[LOOP]_9ABA330A.wem</Path>
+						<File Id="301826470" Language="SFX">
+							<ShortName>Reverie-Forest_Ambient_01_LOOP.wav</ShortName>
+							<Path>SFX\Reverie-Forest_Ambient_01_LOOP_9ABA330A.wem</Path>
 						</File>
-						<File Id="990220699" Language="SFX">
-							<ShortName>Reverie-Forest_Ambient_02[LOOP].wav</ShortName>
-							<Path>SFX\Reverie-Forest_Ambient_02[LOOP]_9ABA330A.wem</Path>
+						<File Id="990220700" Language="SFX">
+							<ShortName>Reverie-Forest_Ambient_02_LOOP.wav</ShortName>
+							<Path>SFX\Reverie-Forest_Ambient_02_LOOP_9ABA330A.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -489,9 +489,9 @@
 							<ShortName>Reverie-Star_Idle_04.wav</ShortName>
 							<Path>SFX\Reverie-Star_Idle_04_9ABA330A.wem</Path>
 						</File>
-						<File Id="884118639" Language="SFX">
-							<ShortName>Reverie-Star_Idle[LOOP].wav</ShortName>
-							<Path>SFX\Reverie-Star_Idle[LOOP]_075A6C54.wem</Path>
+						<File Id="884118640" Language="SFX">
+							<ShortName>Reverie-Star_Idle_LOOP.wav</ShortName>
+							<Path>SFX\Reverie-Star_Idle_LOOP_075A6C54.wem</Path>
 						</File>
 						<File Id="885654490" Language="SFX">
 							<ShortName>Reverie-Star_Idle_01.wav</ShortName>
@@ -535,9 +535,9 @@
 				</Event>
 				<Event Id="467174588" Name="Play_Waterfall" ObjectPath="\Events\Default Work Unit\Play_Waterfall" GUID="{FF41A2AD-F877-4257-A8DE-6F8116BF1649}" MaxAttenuation="5.000000" DurationType="OneShot" DurationMin="46.000103" DurationMax="46.000103">
 					<IncludedMemoryFiles>
-						<File Id="470673335" Language="SFX">
-							<ShortName>Reverie-Waterfall[LOOP].wav</ShortName>
-							<Path>SFX\Reverie-Waterfall[LOOP]_9ABA330A.wem</Path>
+						<File Id="470673336" Language="SFX">
+							<ShortName>Reverie-Waterfall_LOOP.wav</ShortName>
+							<Path>SFX\Reverie-Waterfall_LOOP_9ABA330A.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
