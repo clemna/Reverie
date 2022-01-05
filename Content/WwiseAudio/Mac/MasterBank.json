@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "E:\\Game Development\\Reverie\\Reverie_WwiseProject\\",
-   "SourceFilesRoot": "E:\\Game Development\\Reverie\\Reverie_WwiseProject\\.cache\\Mac\\",
-   "SoundBanksRoot": "E:\\Game Development\\00 - Git Projects\\Reverie\\Content\\WwiseAudio\\Mac\\",
+   "ProjectRoot": "C:\\Users\\Hector\\Desktop\\Reverie\\Reverie_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\Hector\\Desktop\\Reverie\\Reverie_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "C:\\Users\\Hector\\Desktop\\Git\\Reverie\\Content\\WwiseAudio\\Mac\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "E:\\Game Development\\Reverie\\Reverie_WwiseProject\\GeneratedSoundBanks\\Mac"
+   "ExternalSourcesOutputRoot": "C:\\Users\\Hector\\Desktop\\Reverie\\Reverie_WwiseProject\\GeneratedSoundBanks\\Mac"
   },
   "SoundBanks": [
    {
     "Id": "1542108333",
     "GUID": "{CA1DDA29-E66E-4FBE-B121-02F04DDDB158}",
     "Language": "SFX",
-    "Hash": "3628221461",
+    "Hash": "223953831",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MasterBank",
     "ShortName": "MasterBank",
     "Path": "MasterBank.bnk",
@@ -29,10 +29,10 @@
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
-        "Id": "269337653",
+        "Id": "269337654",
         "Language": "SFX",
-        "ShortName": "Reverie-Boat_Wading[LOOP].wav",
-        "Path": "SFX\\Reverie-Boat_Wading[LOOP]_075A6C54.wem"
+        "ShortName": "Reverie-Boat_Wading_LOOP.wav",
+        "Path": "SFX\\Reverie-Boat_Wading_LOOP_075A6C54.wem"
        }
       ],
       "AuxBusSends": [
@@ -88,10 +88,10 @@
         "Path": "SFX\\Reverie-Cave_Drip_07_9ABA330A.wem"
        },
        {
-        "Id": "1036619544",
+        "Id": "1036619545",
         "Language": "SFX",
-        "ShortName": "Reverie-Cave_Ambient_01[LOOP].wav",
-        "Path": "SFX\\Reverie-Cave_Ambient_01[LOOP]_9ABA330A.wem"
+        "ShortName": "Reverie-Cave_Ambient_01_LOOP.wav",
+        "Path": "SFX\\Reverie-Cave_Ambient_01_LOOP_9ABA330A.wem"
        },
        {
         "Id": "1051090502",
@@ -129,10 +129,10 @@
         "Path": "SFX\\Motmot_06_9ABA330A.wem"
        },
        {
-        "Id": "450111459",
+        "Id": "450111460",
         "Language": "SFX",
-        "ShortName": "Reverie-Cenote_Ambient_01[LOOP].wav",
-        "Path": "SFX\\Reverie-Cenote_Ambient_01[LOOP]_075A6C54.wem"
+        "ShortName": "Reverie-Cenote_Ambient_01_LOOP.wav",
+        "Path": "SFX\\Reverie-Cenote_Ambient_01_LOOP_075A6C54.wem"
        },
        {
         "Id": "494183785",
@@ -177,10 +177,10 @@
         "Path": "SFX\\Motmot_02_9ABA330A.wem"
        },
        {
-        "Id": "984434486",
+        "Id": "984434487",
         "Language": "SFX",
-        "ShortName": "Reverie-Cenote_Ambient_02[LOOP].wav",
-        "Path": "SFX\\Reverie-Cenote_Ambient_02[LOOP]_075A6C54.wem"
+        "ShortName": "Reverie-Cenote_Ambient_02_LOOP.wav",
+        "Path": "SFX\\Reverie-Cenote_Ambient_02_LOOP_075A6C54.wem"
        }
       ]
      },
@@ -193,10 +193,10 @@
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
-        "Id": "419320786",
+        "Id": "419320787",
         "Language": "SFX",
-        "ShortName": "Reverie-Distant_Shore_01[LOOP].wav",
-        "Path": "SFX\\Reverie-Distant_Shore_01[LOOP]_9ABA330A.wem"
+        "ShortName": "Reverie-Distant_Shore_01_LOOP.wav",
+        "Path": "SFX\\Reverie-Distant_Shore_01_LOOP_9ABA330A.wem"
        },
        {
         "Id": "762089670",
@@ -709,22 +709,22 @@
       "DurationMax": "323.000000",
       "IncludedMemoryFiles": [
        {
-        "Id": "171515428",
+        "Id": "171515429",
         "Language": "SFX",
-        "ShortName": "Reverie-Forest_Ambient_Wind_01[LOOP].wav",
-        "Path": "SFX\\Reverie-Forest_Ambient_Wind_01[LOOP]_9ABA330A.wem"
+        "ShortName": "Reverie-Forest_Ambient_Wind_01_LOOP.wav",
+        "Path": "SFX\\Reverie-Forest_Ambient_Wind_01_LOOP_9ABA330A.wem"
        },
        {
-        "Id": "301826469",
+        "Id": "301826470",
         "Language": "SFX",
-        "ShortName": "Reverie-Forest_Ambient_01[LOOP].wav",
-        "Path": "SFX\\Reverie-Forest_Ambient_01[LOOP]_9ABA330A.wem"
+        "ShortName": "Reverie-Forest_Ambient_01_LOOP.wav",
+        "Path": "SFX\\Reverie-Forest_Ambient_01_LOOP_9ABA330A.wem"
        },
        {
-        "Id": "990220699",
+        "Id": "990220700",
         "Language": "SFX",
-        "ShortName": "Reverie-Forest_Ambient_02[LOOP].wav",
-        "Path": "SFX\\Reverie-Forest_Ambient_02[LOOP]_9ABA330A.wem"
+        "ShortName": "Reverie-Forest_Ambient_02_LOOP.wav",
+        "Path": "SFX\\Reverie-Forest_Ambient_02_LOOP_9ABA330A.wem"
        }
       ]
      },
@@ -879,10 +879,10 @@
         "Path": "SFX\\Reverie-Star_Idle_04_9ABA330A.wem"
        },
        {
-        "Id": "884118639",
+        "Id": "884118640",
         "Language": "SFX",
-        "ShortName": "Reverie-Star_Idle[LOOP].wav",
-        "Path": "SFX\\Reverie-Star_Idle[LOOP]_075A6C54.wem"
+        "ShortName": "Reverie-Star_Idle_LOOP.wav",
+        "Path": "SFX\\Reverie-Star_Idle_LOOP_075A6C54.wem"
        },
        {
         "Id": "885654490",
@@ -965,10 +965,10 @@
       "DurationMax": "46.000103",
       "IncludedMemoryFiles": [
        {
-        "Id": "470673335",
+        "Id": "470673336",
         "Language": "SFX",
-        "ShortName": "Reverie-Waterfall[LOOP].wav",
-        "Path": "SFX\\Reverie-Waterfall[LOOP]_9ABA330A.wem"
+        "ShortName": "Reverie-Waterfall_LOOP.wav",
+        "Path": "SFX\\Reverie-Waterfall_LOOP_9ABA330A.wem"
        }
       ]
      },
