@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\Hector\\Desktop\\Reverie\\Reverie_WwiseProject\\",
-   "SourceFilesRoot": "C:\\Users\\Hector\\Desktop\\Reverie\\Reverie_WwiseProject\\.cache\\Mac\\",
-   "SoundBanksRoot": "C:\\Users\\Hector\\Desktop\\Git\\Reverie\\Content\\WwiseBanks\\Mac\\",
+   "ProjectRoot": "E:\\Game Development\\Reverie\\Reverie_WwiseProject\\",
+   "SourceFilesRoot": "E:\\Game Development\\Reverie\\Reverie_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "E:\\Game Development\\00 - Git Projects\\Reverie\\Content\\WwiseBanks\\Mac\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\Hector\\Desktop\\Reverie\\Reverie_WwiseProject\\GeneratedSoundBanks\\Mac"
+   "ExternalSourcesOutputRoot": "E:\\Game Development\\Reverie\\Reverie_WwiseProject\\GeneratedSoundBanks\\Mac"
   },
   "SoundBanks": [
    {
     "Id": "1542108333",
     "GUID": "{CA1DDA29-E66E-4FBE-B121-02F04DDDB158}",
     "Language": "SFX",
-    "Hash": "223953831",
+    "Hash": "3908559650",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MasterBank",
     "ShortName": "MasterBank",
     "Path": "MasterBank.bnk",
@@ -29,10 +29,10 @@
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
-        "Id": "269337654",
+        "Id": "278800370",
         "Language": "SFX",
-        "ShortName": "Reverie-Boat_Wading_LOOP.wav",
-        "Path": "SFX\\Reverie-Boat_Wading_LOOP_075A6C54.wem"
+        "ShortName": "Reverie-Boat_Wading-LOOP.wav",
+        "Path": "SFX\\Reverie-Boat_Wading-LOOP_075A6C54.wem"
        }
       ],
       "AuxBusSends": [
@@ -70,6 +70,12 @@
         "Path": "SFX\\Reverie-Cave_Drip_05_9ABA330A.wem"
        },
        {
+        "Id": "357632785",
+        "Language": "SFX",
+        "ShortName": "Reverie-Grotto_Ambient_01-LOOP.wav",
+        "Path": "SFX\\Reverie-Grotto_Ambient_01-LOOP_9ABA330A.wem"
+       },
+       {
         "Id": "362973121",
         "Language": "SFX",
         "ShortName": "Reverie-Cave_Drip_06.wav",
@@ -88,12 +94,6 @@
         "Path": "SFX\\Reverie-Cave_Drip_07_9ABA330A.wem"
        },
        {
-        "Id": "1036619545",
-        "Language": "SFX",
-        "ShortName": "Reverie-Cave_Ambient_01_LOOP.wav",
-        "Path": "SFX\\Reverie-Cave_Ambient_01_LOOP_9ABA330A.wem"
-       },
-       {
         "Id": "1051090502",
         "Language": "SFX",
         "ShortName": "Reverie-Cave_Drip_01.wav",
@@ -101,6 +101,12 @@
        }
       ],
       "AuxBusSends": [
+       {
+        "Id": "3169399587",
+        "Name": "Grotto_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
+        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
+       },
        {
         "Id": "3177428469",
         "Name": "Cave_Reverb",
@@ -110,77 +116,52 @@
       ]
      },
      {
-      "Id": "3488159267",
-      "Name": "Play_Cenote_Ambient",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Cenote_Ambient",
-      "GUID": "{EE82EBFC-6ECC-4C16-A2F2-E17D970FB8BA}",
-      "DurationType": "Infinite",
+      "Id": "2095428330",
+      "Name": "Play_Chest_Locked",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Chest_Locked",
+      "GUID": "{82C97493-3F60-4D00-8F64-44B75FA57EA4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.993604",
+      "DurationMax": "0.993604",
       "IncludedMemoryFiles": [
        {
-        "Id": "140278530",
+        "Id": "934226917",
         "Language": "SFX",
-        "ShortName": "Motmot_05.wav",
-        "Path": "SFX\\Motmot_05_9ABA330A.wem"
-       },
+        "ShortName": "Reverie-Chest_Locked_01.wav",
+        "Path": "SFX\\Reverie-Chest_Locked_01_9ABA330A.wem"
+       }
+      ],
+      "AuxBusSends": [
        {
-        "Id": "391406486",
-        "Language": "SFX",
-        "ShortName": "Motmot_06.wav",
-        "Path": "SFX\\Motmot_06_9ABA330A.wem"
-       },
+        "Id": "3169399587",
+        "Name": "Grotto_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
+        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
+       }
+      ]
+     },
+     {
+      "Id": "2672222943",
+      "Name": "Play_Chest_Unlock_Open",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Chest_Unlock_Open",
+      "GUID": "{78B2373D-8236-4040-AA28-F6DB3CDE203C}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.558417",
+      "DurationMax": "3.558417",
+      "IncludedMemoryFiles": [
        {
-        "Id": "450111460",
+        "Id": "391429064",
         "Language": "SFX",
-        "ShortName": "Reverie-Cenote_Ambient_01_LOOP.wav",
-        "Path": "SFX\\Reverie-Cenote_Ambient_01_LOOP_075A6C54.wem"
-       },
+        "ShortName": "Reverie-Chest_Unlock+Open_01.wav",
+        "Path": "SFX\\Reverie-Chest_Unlock+Open_01_9ABA330A.wem"
+       }
+      ],
+      "AuxBusSends": [
        {
-        "Id": "494183785",
-        "Language": "SFX",
-        "ShortName": "Motmot_01.wav",
-        "Path": "SFX\\Motmot_01_9ABA330A.wem"
-       },
-       {
-        "Id": "580045510",
-        "Language": "SFX",
-        "ShortName": "Motmot_04.wav",
-        "Path": "SFX\\Motmot_04_9ABA330A.wem"
-       },
-       {
-        "Id": "583293190",
-        "Language": "SFX",
-        "ShortName": "Reverie-Bird_Call_01.wav",
-        "Path": "SFX\\Reverie-Bird_Call_01_9ABA330A.wem"
-       },
-       {
-        "Id": "631548905",
-        "Language": "SFX",
-        "ShortName": "Motmot_03.wav",
-        "Path": "SFX\\Motmot_03_9ABA330A.wem"
-       },
-       {
-        "Id": "798383048",
-        "Language": "SFX",
-        "ShortName": "Reverie-Bird_Call_02.wav",
-        "Path": "SFX\\Reverie-Bird_Call_02_9ABA330A.wem"
-       },
-       {
-        "Id": "800815148",
-        "Language": "SFX",
-        "ShortName": "Motmot_07.wav",
-        "Path": "SFX\\Motmot_07_9ABA330A.wem"
-       },
-       {
-        "Id": "863316664",
-        "Language": "SFX",
-        "ShortName": "Motmot_02.wav",
-        "Path": "SFX\\Motmot_02_9ABA330A.wem"
-       },
-       {
-        "Id": "984434487",
-        "Language": "SFX",
-        "ShortName": "Reverie-Cenote_Ambient_02_LOOP.wav",
-        "Path": "SFX\\Reverie-Cenote_Ambient_02_LOOP_075A6C54.wem"
+        "Id": "3169399587",
+        "Name": "Grotto_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
+        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
        }
       ]
      },
@@ -213,8 +194,20 @@
       "GUID": "{78C325A0-0522-4237-9457-2EF2ED395AC5}",
       "DurationType": "OneShot",
       "DurationMin": "0.168324",
-      "DurationMax": "1.156884",
+      "DurationMax": "1.587125",
       "IncludedMemoryFiles": [
+       {
+        "Id": "21131026",
+        "Language": "SFX",
+        "ShortName": "Reverie-Step_D_02.wav",
+        "Path": "SFX\\Reverie-Step_D_02_9ABA330A.wem"
+       },
+       {
+        "Id": "66857043",
+        "Language": "SFX",
+        "ShortName": "Reverie-Step_E_03.wav",
+        "Path": "SFX\\Reverie-Step_E_03_9ABA330A.wem"
+       },
        {
         "Id": "75537005",
         "Language": "SFX",
@@ -264,6 +257,12 @@
         "Path": "SFX\\Reverie-Footsteps_Water_04_9ABA330A.wem"
        },
        {
+        "Id": "186245735",
+        "Language": "SFX",
+        "ShortName": "Reverie-Step_Fsharp_03.wav",
+        "Path": "SFX\\Reverie-Step_Fsharp_03_9ABA330A.wem"
+       },
+       {
         "Id": "209185863",
         "Language": "SFX",
         "ShortName": "Reverie-Footsteps_Gravel_04.wav",
@@ -288,6 +287,12 @@
         "Path": "SFX\\Reverie-Footsteps_Water_05_9ABA330A.wem"
        },
        {
+        "Id": "257757896",
+        "Language": "SFX",
+        "ShortName": "Reverie-Step_G_01.wav",
+        "Path": "SFX\\Reverie-Step_G_01_9ABA330A.wem"
+       },
+       {
         "Id": "292696711",
         "Language": "SFX",
         "ShortName": "Reverie-Footsteps_Sand_03.wav",
@@ -304,6 +309,12 @@
         "Language": "SFX",
         "ShortName": "Reverie-Footsteps_Gravel_02.wav",
         "Path": "SFX\\Reverie-Footsteps_Gravel_02_9ABA330A.wem"
+       },
+       {
+        "Id": "303852816",
+        "Language": "SFX",
+        "ShortName": "Reverie-Step_E_02.wav",
+        "Path": "SFX\\Reverie-Step_E_02_9ABA330A.wem"
        },
        {
         "Id": "340424136",
@@ -334,6 +345,12 @@
         "Language": "SFX",
         "ShortName": "Reverie-Footsteps_Grass_10.wav",
         "Path": "SFX\\Reverie-Footsteps_Grass_10_9ABA330A.wem"
+       },
+       {
+        "Id": "408602076",
+        "Language": "SFX",
+        "ShortName": "Reverie-Step_Fsharp_01.wav",
+        "Path": "SFX\\Reverie-Step_Fsharp_01_9ABA330A.wem"
        },
        {
         "Id": "539514201",
@@ -390,10 +407,22 @@
         "Path": "SFX\\Reverie-Footsteps_Gravel_05_9ABA330A.wem"
        },
        {
+        "Id": "641616743",
+        "Language": "SFX",
+        "ShortName": "Reverie-Step_G_03.wav",
+        "Path": "SFX\\Reverie-Step_G_03_9ABA330A.wem"
+       },
+       {
         "Id": "656891465",
         "Language": "SFX",
         "ShortName": "Reverie-Footsteps_Wood_02.wav",
         "Path": "SFX\\Reverie-Footsteps_Wood_02_9ABA330A.wem"
+       },
+       {
+        "Id": "666845999",
+        "Language": "SFX",
+        "ShortName": "Reverie-Step_D_01.wav",
+        "Path": "SFX\\Reverie-Step_D_01_9ABA330A.wem"
        },
        {
         "Id": "671805108",
@@ -414,6 +443,18 @@
         "Path": "SFX\\Reverie-Footsteps_Water_12_9ABA330A.wem"
        },
        {
+        "Id": "733250711",
+        "Language": "SFX",
+        "ShortName": "Reverie-Step_D_03.wav",
+        "Path": "SFX\\Reverie-Step_D_03_9ABA330A.wem"
+       },
+       {
+        "Id": "733495495",
+        "Language": "SFX",
+        "ShortName": "Reverie-Step_G_02.wav",
+        "Path": "SFX\\Reverie-Step_G_02_9ABA330A.wem"
+       },
+       {
         "Id": "771795146",
         "Language": "SFX",
         "ShortName": "Reverie-Footsteps_Grass_05.wav",
@@ -424,6 +465,12 @@
         "Language": "SFX",
         "ShortName": "Reverie-Footsteps_Gravel_03.wav",
         "Path": "SFX\\Reverie-Footsteps_Gravel_03_9ABA330A.wem"
+       },
+       {
+        "Id": "801544065",
+        "Language": "SFX",
+        "ShortName": "Reverie-Step_E_01.wav",
+        "Path": "SFX\\Reverie-Step_E_01_9ABA330A.wem"
        },
        {
         "Id": "811821000",
@@ -448,6 +495,12 @@
         "Language": "SFX",
         "ShortName": "Reverie-Footsteps_Wood_08.wav",
         "Path": "SFX\\Reverie-Footsteps_Wood_08_9ABA330A.wem"
+       },
+       {
+        "Id": "849679954",
+        "Language": "SFX",
+        "ShortName": "Reverie-Step_C_01.wav",
+        "Path": "SFX\\Reverie-Step_C_01_9ABA330A.wem"
        },
        {
         "Id": "852857501",
@@ -480,10 +533,22 @@
         "Path": "SFX\\Reverie-Footsteps_Grass_08_9ABA330A.wem"
        },
        {
+        "Id": "955213998",
+        "Language": "SFX",
+        "ShortName": "Reverie-Step_C_02.wav",
+        "Path": "SFX\\Reverie-Step_C_02_9ABA330A.wem"
+       },
+       {
         "Id": "977912613",
         "Language": "SFX",
         "ShortName": "Reverie-Footsteps_Sand_06.wav",
         "Path": "SFX\\Reverie-Footsteps_Sand_06_9ABA330A.wem"
+       },
+       {
+        "Id": "1008968432",
+        "Language": "SFX",
+        "ShortName": "Reverie-Step_C_03.wav",
+        "Path": "SFX\\Reverie-Step_C_03_9ABA330A.wem"
        },
        {
         "Id": "1022312967",
@@ -496,6 +561,12 @@
         "Language": "SFX",
         "ShortName": "Reverie-Footsteps_Wood_05.wav",
         "Path": "SFX\\Reverie-Footsteps_Wood_05_9ABA330A.wem"
+       },
+       {
+        "Id": "1042088029",
+        "Language": "SFX",
+        "ShortName": "Reverie-Step_Fsharp_02.wav",
+        "Path": "SFX\\Reverie-Step_Fsharp_02_9ABA330A.wem"
        },
        {
         "Id": "1046730012",
@@ -571,6 +642,20 @@
         ]
        },
        {
+        "SwitchValue": "{D8FA005E-3CBF-46F3-9735-5E5E6E53F00A}",
+        "Media": [
+         {
+          "Id": "21131026"
+         },
+         {
+          "Id": "666845999"
+         },
+         {
+          "Id": "733250711"
+         }
+        ]
+       },
+       {
         "SwitchValue": "{6B35DE74-D6FC-498A-8E8D-A40BE940B317}",
         "Media": [
          {
@@ -608,6 +693,62 @@
          },
          {
           "Id": "1046730012"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{6985F882-4809-4853-9229-412DFD1010D1}",
+        "Media": [
+         {
+          "Id": "849679954"
+         },
+         {
+          "Id": "955213998"
+         },
+         {
+          "Id": "1008968432"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{B6AA208F-690F-4EF5-AB16-99F9E1FDD68F}",
+        "Media": [
+         {
+          "Id": "66857043"
+         },
+         {
+          "Id": "303852816"
+         },
+         {
+          "Id": "801544065"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{659F9FA7-899E-402E-8439-1DEC5B542736}",
+        "Media": [
+         {
+          "Id": "257757896"
+         },
+         {
+          "Id": "641616743"
+         },
+         {
+          "Id": "733495495"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{D62F78AB-2F60-4742-98B7-9C630454F448}",
+        "Media": [
+         {
+          "Id": "186245735"
+         },
+         {
+          "Id": "408602076"
+         },
+         {
+          "Id": "1042088029"
          }
         ]
        },
@@ -692,10 +833,10 @@
       ],
       "AuxBusSends": [
        {
-        "Id": "3177428469",
-        "Name": "Cave_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Cave_Reverb",
-        "GUID": "{ABB16B87-6456-4BCF-B27C-FB9EDF773517}"
+        "Id": "3169399587",
+        "Name": "Grotto_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
+        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
        }
       ]
      },
@@ -725,6 +866,77 @@
         "Language": "SFX",
         "ShortName": "Reverie-Forest_Ambient_02_LOOP.wav",
         "Path": "SFX\\Reverie-Forest_Ambient_02_LOOP_9ABA330A.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2910734202",
+      "Name": "Play_Grotto_Ambient",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Grotto_Ambient",
+      "GUID": "{EE82EBFC-6ECC-4C16-A2F2-E17D970FB8BA}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "24430823",
+        "Language": "SFX",
+        "ShortName": "Reverie-Cave_Drip_02.wav",
+        "Path": "SFX\\Reverie-Cave_Drip_02_9ABA330A.wem"
+       },
+       {
+        "Id": "213957780",
+        "Language": "SFX",
+        "ShortName": "Reverie-Cave_Drip_04.wav",
+        "Path": "SFX\\Reverie-Cave_Drip_04_9ABA330A.wem"
+       },
+       {
+        "Id": "349214809",
+        "Language": "SFX",
+        "ShortName": "Reverie-Cave_Drip_05.wav",
+        "Path": "SFX\\Reverie-Cave_Drip_05_9ABA330A.wem"
+       },
+       {
+        "Id": "357632785",
+        "Language": "SFX",
+        "ShortName": "Reverie-Grotto_Ambient_01-LOOP.wav",
+        "Path": "SFX\\Reverie-Grotto_Ambient_01-LOOP_9ABA330A.wem"
+       },
+       {
+        "Id": "362973121",
+        "Language": "SFX",
+        "ShortName": "Reverie-Cave_Drip_06.wav",
+        "Path": "SFX\\Reverie-Cave_Drip_06_9ABA330A.wem"
+       },
+       {
+        "Id": "504841091",
+        "Language": "SFX",
+        "ShortName": "Reverie-Wind_Whistle_01-LOOP.wav",
+        "Path": "SFX\\Reverie-Wind_Whistle_01-LOOP_9ABA330A.wem"
+       },
+       {
+        "Id": "507117369",
+        "Language": "SFX",
+        "ShortName": "Reverie-Cave_Drip_03.wav",
+        "Path": "SFX\\Reverie-Cave_Drip_03_9ABA330A.wem"
+       },
+       {
+        "Id": "648222520",
+        "Language": "SFX",
+        "ShortName": "Reverie-Cave_Drip_07.wav",
+        "Path": "SFX\\Reverie-Cave_Drip_07_9ABA330A.wem"
+       },
+       {
+        "Id": "1051090502",
+        "Language": "SFX",
+        "ShortName": "Reverie-Cave_Drip_01.wav",
+        "Path": "SFX\\Reverie-Cave_Drip_01_9ABA330A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3169399587",
+        "Name": "Grotto_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
+        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
        }
       ]
      },
@@ -763,6 +975,124 @@
       ]
      },
      {
+      "Id": "1723007592",
+      "Name": "Play_Pickup_Bateries",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Pickup_Bateries",
+      "GUID": "{2FA6F85B-B00E-4886-BBED-34DF5550AB4A}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.416521",
+      "DurationMax": "2.418354",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "576289594",
+        "Language": "SFX",
+        "ShortName": "Reverie-Chime_02.wav",
+        "Path": "SFX\\Reverie-Chime_02_9ABA330A.wem"
+       },
+       {
+        "Id": "663476046",
+        "Language": "SFX",
+        "ShortName": "Reverie-Chime_03.wav",
+        "Path": "SFX\\Reverie-Chime_03_9ABA330A.wem"
+       },
+       {
+        "Id": "1050120049",
+        "Language": "SFX",
+        "ShortName": "Reverie-Pickup_Batteries_01.wav",
+        "Path": "SFX\\Reverie-Pickup_Batteries_01_9ABA330A.wem"
+       },
+       {
+        "Id": "1062239770",
+        "Language": "SFX",
+        "ShortName": "Reverie-Chime_01.wav",
+        "Path": "SFX\\Reverie-Chime_01_9ABA330A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3169399587",
+        "Name": "Grotto_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
+        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
+       }
+      ]
+     },
+     {
+      "Id": "3768549418",
+      "Name": "Play_Pickup_Key",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Pickup_Key",
+      "GUID": "{3D5E8617-E57C-4FC3-9BC8-BA944D2CB244}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.416521",
+      "DurationMax": "2.418354",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "576289594",
+        "Language": "SFX",
+        "ShortName": "Reverie-Chime_02.wav",
+        "Path": "SFX\\Reverie-Chime_02_9ABA330A.wem"
+       },
+       {
+        "Id": "663476046",
+        "Language": "SFX",
+        "ShortName": "Reverie-Chime_03.wav",
+        "Path": "SFX\\Reverie-Chime_03_9ABA330A.wem"
+       },
+       {
+        "Id": "706175965",
+        "Language": "SFX",
+        "ShortName": "Reverie-Pickup_Key_01.wav",
+        "Path": "SFX\\Reverie-Pickup_Key_01_9ABA330A.wem"
+       },
+       {
+        "Id": "911146849",
+        "Language": "SFX",
+        "ShortName": "Reverie-Pickup_Key_02.wav",
+        "Path": "SFX\\Reverie-Pickup_Key_02_9ABA330A.wem"
+       },
+       {
+        "Id": "1062239770",
+        "Language": "SFX",
+        "ShortName": "Reverie-Chime_01.wav",
+        "Path": "SFX\\Reverie-Chime_01_9ABA330A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3169399587",
+        "Name": "Grotto_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
+        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
+       }
+      ]
+     },
+     {
+      "Id": "248894660",
+      "Name": "Play_Star_Batteries_Insert",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Star_Batteries_Insert",
+      "GUID": "{72CAB87C-AE16-43AC-9153-ED0C5E42B946}",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.850958",
+      "DurationMax": "0.850958",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "312394195",
+        "Language": "SFX",
+        "ShortName": "Reverie-Star_Batteries_Insert_01.wav",
+        "Path": "SFX\\Reverie-Star_Batteries_Insert_01_9ABA330A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3169399587",
+        "Name": "Grotto_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
+        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
+       }
+      ]
+     },
+     {
       "Id": "2515930607",
       "Name": "Play_Star_Emote_HurryUp",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Star_Emote_HurryUp",
@@ -781,10 +1111,10 @@
       ],
       "AuxBusSends": [
        {
-        "Id": "3177428469",
-        "Name": "Cave_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Cave_Reverb",
-        "GUID": "{ABB16B87-6456-4BCF-B27C-FB9EDF773517}"
+        "Id": "3169399587",
+        "Name": "Grotto_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
+        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
        }
       ]
      },
@@ -813,10 +1143,10 @@
       ],
       "AuxBusSends": [
        {
-        "Id": "3177428469",
-        "Name": "Cave_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Cave_Reverb",
-        "GUID": "{ABB16B87-6456-4BCF-B27C-FB9EDF773517}"
+        "Id": "3169399587",
+        "Name": "Grotto_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
+        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
        }
       ]
      },
@@ -845,10 +1175,10 @@
       ],
       "AuxBusSends": [
        {
-        "Id": "3177428469",
-        "Name": "Cave_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Cave_Reverb",
-        "GUID": "{ABB16B87-6456-4BCF-B27C-FB9EDF773517}"
+        "Id": "3169399587",
+        "Name": "Grotto_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
+        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
        }
       ]
      },
@@ -893,10 +1223,36 @@
       ],
       "AuxBusSends": [
        {
-        "Id": "3177428469",
-        "Name": "Cave_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Cave_Reverb",
-        "GUID": "{ABB16B87-6456-4BCF-B27C-FB9EDF773517}"
+        "Id": "3169399587",
+        "Name": "Grotto_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
+        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
+       }
+      ]
+     },
+     {
+      "Id": "2996604491",
+      "Name": "Play_Star_Powerup",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Star_Powerup",
+      "GUID": "{74BEDC8B-61D7-40AB-ADF7-52281EE404F9}",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.344479",
+      "DurationMax": "1.344479",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "112651691",
+        "Language": "SFX",
+        "ShortName": "Reverie-Star_Powerup_02.wav",
+        "Path": "SFX\\Reverie-Star_Powerup_02_9ABA330A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3169399587",
+        "Name": "Grotto_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
+        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
        }
       ]
      },
@@ -905,7 +1261,7 @@
       "Name": "Play_Tree_Creacking",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Tree_Creacking",
       "GUID": "{5BEA8985-5FCE-4863-BB2A-39F043588039}",
-      "MaxAttenuation": "5.000000",
+      "MaxAttenuation": "10.000000",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -947,10 +1303,10 @@
       ],
       "AuxBusSends": [
        {
-        "Id": "3177428469",
-        "Name": "Cave_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Cave_Reverb",
-        "GUID": "{ABB16B87-6456-4BCF-B27C-FB9EDF773517}"
+        "Id": "3169399587",
+        "Name": "Grotto_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
+        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
        }
       ]
      },
@@ -959,7 +1315,7 @@
       "Name": "Play_Waterfall",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Waterfall",
       "GUID": "{FF41A2AD-F877-4257-A8DE-6F8116BF1649}",
-      "MaxAttenuation": "5.000000",
+      "MaxAttenuation": "10.000000",
       "DurationType": "OneShot",
       "DurationMin": "46.000103",
       "DurationMax": "46.000103",
@@ -993,16 +1349,6 @@
       "DurationMax": "0.000000"
      },
      {
-      "Id": "344883609",
-      "Name": "Stop_Cenote_Ambient",
-      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Cenote_Ambient",
-      "GUID": "{DECF33F2-A635-40FA-BE4D-7804556C4B1E}",
-      "MaxAttenuation": "0.000000",
-      "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
-     },
-     {
       "Id": "1491101445",
       "Name": "Stop_Distant_Shore",
       "ObjectPath": "\\Events\\Default Work Unit\\Stop_Distant_Shore",
@@ -1017,6 +1363,16 @@
       "Name": "Stop_Forest_Ambient",
       "ObjectPath": "\\Events\\Default Work Unit\\Stop_Forest_Ambient",
       "GUID": "{21C637E6-F56F-47F8-BF36-9BB9D7FCA18E}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "4129123196",
+      "Name": "Stop_Grotto_Ambient",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Grotto_Ambient",
+      "GUID": "{DECF33F2-A635-40FA-BE4D-7804556C4B1E}",
       "MaxAttenuation": "0.000000",
       "DurationType": "OneShot",
       "DurationMin": "0.000000",
@@ -1105,6 +1461,42 @@
         "Name": "Sand",
         "ObjectPath": "\\Switches\\Default Work Unit\\Floor_Material\\Sand",
         "GUID": "{905FE1F7-BD94-4FC5-982D-B5EE8833346F}"
+       },
+       {
+        "Id": "3199281098",
+        "Name": "Foam",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Floor_Material\\Foam",
+        "GUID": "{B480FDBC-B963-4F92-AADA-6C5A68BB33D0}"
+       },
+       {
+        "Id": "3562484149",
+        "Name": "Step_C",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Floor_Material\\Step_C",
+        "GUID": "{6985F882-4809-4853-9229-412DFD1010D1}"
+       },
+       {
+        "Id": "3562484146",
+        "Name": "Step_D",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Floor_Material\\Step_D",
+        "GUID": "{D8FA005E-3CBF-46F3-9735-5E5E6E53F00A}"
+       },
+       {
+        "Id": "3562484147",
+        "Name": "Step_E",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Floor_Material\\Step_E",
+        "GUID": "{B6AA208F-690F-4EF5-AB16-99F9E1FDD68F}"
+       },
+       {
+        "Id": "2461941321",
+        "Name": "StepFsharp",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Floor_Material\\StepFsharp",
+        "GUID": "{D62F78AB-2F60-4742-98B7-9C630454F448}"
+       },
+       {
+        "Id": "3562484145",
+        "Name": "Step_G",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Floor_Material\\Step_G",
+        "GUID": "{659F9FA7-899E-402E-8439-1DEC5B542736}"
        }
       ]
      }
