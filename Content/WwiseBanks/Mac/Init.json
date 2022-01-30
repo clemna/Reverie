@@ -5,26 +5,26 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\Hector\\Desktop\\Reverie\\Reverie_WwiseProject\\",
-   "SourceFilesRoot": "C:\\Users\\Hector\\Desktop\\Reverie\\Reverie_WwiseProject\\.cache\\Mac\\",
-   "SoundBanksRoot": "C:\\Users\\Hector\\Desktop\\Git\\Reverie\\Content\\WwiseBanks\\Mac\\",
+   "ProjectRoot": "E:\\Game Development\\Reverie\\Reverie_WwiseProject\\",
+   "SourceFilesRoot": "E:\\Game Development\\Reverie\\Reverie_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "E:\\Game Development\\00 - Git Projects\\Reverie\\Content\\WwiseBanks\\Mac\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\Hector\\Desktop\\Reverie\\Reverie_WwiseProject\\GeneratedSoundBanks\\Mac"
+   "ExternalSourcesOutputRoot": "E:\\Game Development\\Reverie\\Reverie_WwiseProject\\GeneratedSoundBanks\\Mac"
   },
   "SoundBanks": [
    {
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "84556986",
+    "Hash": "286345951",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "IncludedAuxBusses": [
      {
-      "Id": "201580272",
-      "Name": "Cenote_Reverb",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Cenote_Reverb",
+      "Id": "3169399587",
+      "Name": "Grotto_Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
       "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
      },
      {
