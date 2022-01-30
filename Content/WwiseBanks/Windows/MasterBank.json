@@ -16,7 +16,7 @@
     "Id": "1542108333",
     "GUID": "{CA1DDA29-E66E-4FBE-B121-02F04DDDB158}",
     "Language": "SFX",
-    "Hash": "3908559650",
+    "Hash": "1083666213",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MasterBank",
     "ShortName": "MasterBank",
     "Path": "MasterBank.bnk",
@@ -120,6 +120,7 @@
       "Name": "Play_Chest_Locked",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Chest_Locked",
       "GUID": "{82C97493-3F60-4D00-8F64-44B75FA57EA4}",
+      "MaxAttenuation": "100.000000",
       "DurationType": "OneShot",
       "DurationMin": "0.993604",
       "DurationMax": "0.993604",
@@ -145,6 +146,7 @@
       "Name": "Play_Chest_Unlock_Open",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Chest_Unlock_Open",
       "GUID": "{78B2373D-8236-4040-AA28-F6DB3CDE203C}",
+      "MaxAttenuation": "100.000000",
       "DurationType": "OneShot",
       "DurationMin": "3.558417",
       "DurationMax": "3.558417",
@@ -193,7 +195,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Footstep",
       "GUID": "{78C325A0-0522-4237-9457-2EF2ED395AC5}",
       "DurationType": "OneShot",
-      "DurationMin": "0.168324",
+      "DurationMin": "0.133599",
       "DurationMax": "1.587125",
       "IncludedMemoryFiles": [
        {
@@ -201,6 +203,12 @@
         "Language": "SFX",
         "ShortName": "Reverie-Step_D_02.wav",
         "Path": "SFX\\Reverie-Step_D_02_9ABA330A.wem"
+       },
+       {
+        "Id": "63615227",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_PPA_03.wav",
+        "Path": "SFX\\Reverie-Footsteps_PPA_03_9ABA330A.wem"
        },
        {
         "Id": "66857043",
@@ -317,6 +325,12 @@
         "Path": "SFX\\Reverie-Step_E_02_9ABA330A.wem"
        },
        {
+        "Id": "337615981",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_PPA_06.wav",
+        "Path": "SFX\\Reverie-Footsteps_PPA_06_9ABA330A.wem"
+       },
+       {
         "Id": "340424136",
         "Language": "SFX",
         "ShortName": "Reverie-Footsteps_Grass_07.wav",
@@ -407,6 +421,12 @@
         "Path": "SFX\\Reverie-Footsteps_Gravel_05_9ABA330A.wem"
        },
        {
+        "Id": "633788955",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_PPA_01.wav",
+        "Path": "SFX\\Reverie-Footsteps_PPA_01_9ABA330A.wem"
+       },
+       {
         "Id": "641616743",
         "Language": "SFX",
         "ShortName": "Reverie-Step_G_03.wav",
@@ -453,6 +473,12 @@
         "Language": "SFX",
         "ShortName": "Reverie-Step_G_02.wav",
         "Path": "SFX\\Reverie-Step_G_02_9ABA330A.wem"
+       },
+       {
+        "Id": "763551033",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_PPA_05.wav",
+        "Path": "SFX\\Reverie-Footsteps_PPA_05_9ABA330A.wem"
        },
        {
         "Id": "771795146",
@@ -533,6 +559,12 @@
         "Path": "SFX\\Reverie-Footsteps_Grass_08_9ABA330A.wem"
        },
        {
+        "Id": "929210327",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_PPA_04.wav",
+        "Path": "SFX\\Reverie-Footsteps_PPA_04_9ABA330A.wem"
+       },
+       {
         "Id": "955213998",
         "Language": "SFX",
         "ShortName": "Reverie-Step_C_02.wav",
@@ -575,258 +607,568 @@
         "Path": "SFX\\Reverie-Footsteps_Water_10_9ABA330A.wem"
        },
        {
+        "Id": "1052487845",
+        "Language": "SFX",
+        "ShortName": "Reverie-Footsteps_PPA_02.wav",
+        "Path": "SFX\\Reverie-Footsteps_PPA_02_9ABA330A.wem"
+       },
+       {
         "Id": "1067690539",
         "Language": "SFX",
         "ShortName": "Reverie-Footsteps_Grass_01.wav",
         "Path": "SFX\\Reverie-Footsteps_Grass_01_9ABA330A.wem"
        }
       ],
-      "DefaultSwitchValue": "{8697051C-7850-418F-8713-15997716A4FE}",
       "SwitchContainers": [
        {
-        "SwitchValue": "{8697051C-7850-418F-8713-15997716A4FE}",
-        "Media": [
+        "SwitchValue": "{7049C75B-3A11-4BA6-8DF3-551273FB6FED}",
+        "DefaultSwitchValue": "{8697051C-7850-418F-8713-15997716A4FE}",
+        "Children": [
          {
-          "Id": "102048234"
+          "SwitchValue": "{8697051C-7850-418F-8713-15997716A4FE}",
+          "Media": [
+           {
+            "Id": "102048234"
+           },
+           {
+            "Id": "110623919"
+           },
+           {
+            "Id": "340424136"
+           },
+           {
+            "Id": "378126434"
+           },
+           {
+            "Id": "771795146"
+           },
+           {
+            "Id": "811821000"
+           },
+           {
+            "Id": "852857501"
+           },
+           {
+            "Id": "891628710"
+           },
+           {
+            "Id": "1022312967"
+           },
+           {
+            "Id": "1067690539"
+           }
+          ]
          },
          {
-          "Id": "110623919"
+          "SwitchValue": "{71B97E48-AF49-401C-9912-74229FE65C03}",
+          "Media": [
+           {
+            "Id": "209185863"
+           },
+           {
+            "Id": "301011992"
+           },
+           {
+            "Id": "610608631"
+           },
+           {
+            "Id": "619976003"
+           },
+           {
+            "Id": "777732565"
+           },
+           {
+            "Id": "873649963"
+           }
+          ]
          },
          {
-          "Id": "340424136"
+          "SwitchValue": "{D8FA005E-3CBF-46F3-9735-5E5E6E53F00A}",
+          "Media": [
+           {
+            "Id": "21131026"
+           },
+           {
+            "Id": "666845999"
+           },
+           {
+            "Id": "733250711"
+           }
+          ]
          },
          {
-          "Id": "378126434"
+          "SwitchValue": "{6B35DE74-D6FC-498A-8E8D-A40BE940B317}",
+          "Media": [
+           {
+            "Id": "111484945"
+           },
+           {
+            "Id": "129656882"
+           },
+           {
+            "Id": "158885810"
+           },
+           {
+            "Id": "209450012"
+           },
+           {
+            "Id": "225978460"
+           },
+           {
+            "Id": "344822341"
+           },
+           {
+            "Id": "361359406"
+           },
+           {
+            "Id": "586527996"
+           },
+           {
+            "Id": "678312899"
+           },
+           {
+            "Id": "812671445"
+           },
+           {
+            "Id": "881386844"
+           },
+           {
+            "Id": "1046730012"
+           }
+          ]
          },
          {
-          "Id": "771795146"
+          "SwitchValue": "{6985F882-4809-4853-9229-412DFD1010D1}",
+          "Media": [
+           {
+            "Id": "849679954"
+           },
+           {
+            "Id": "955213998"
+           },
+           {
+            "Id": "1008968432"
+           }
+          ]
          },
          {
-          "Id": "811821000"
+          "SwitchValue": "{B6AA208F-690F-4EF5-AB16-99F9E1FDD68F}",
+          "Media": [
+           {
+            "Id": "66857043"
+           },
+           {
+            "Id": "303852816"
+           },
+           {
+            "Id": "801544065"
+           }
+          ]
          },
          {
-          "Id": "852857501"
+          "SwitchValue": "{659F9FA7-899E-402E-8439-1DEC5B542736}",
+          "Media": [
+           {
+            "Id": "257757896"
+           },
+           {
+            "Id": "641616743"
+           },
+           {
+            "Id": "733495495"
+           }
+          ]
          },
          {
-          "Id": "891628710"
+          "SwitchValue": "{D62F78AB-2F60-4742-98B7-9C630454F448}",
+          "Media": [
+           {
+            "Id": "186245735"
+           },
+           {
+            "Id": "408602076"
+           },
+           {
+            "Id": "1042088029"
+           }
+          ]
          },
          {
-          "Id": "1022312967"
+          "SwitchValue": "{40C117B8-3365-4E80-B9B1-9CE9227507A6}",
+          "Media": [
+           {
+            "Id": "75537005"
+           },
+           {
+            "Id": "139094833"
+           },
+           {
+            "Id": "366913200"
+           },
+           {
+            "Id": "539514201"
+           },
+           {
+            "Id": "656891465"
+           },
+           {
+            "Id": "671805108"
+           },
+           {
+            "Id": "833843366"
+           },
+           {
+            "Id": "1027013280"
+           }
+          ]
          },
          {
-          "Id": "1067690539"
+          "SwitchValue": "{2836DFBA-155A-4E36-8585-926856B388B7}",
+          "Media": [
+           {
+            "Id": "555190685"
+           },
+           {
+            "Id": "558763824"
+           },
+           {
+            "Id": "590217135"
+           },
+           {
+            "Id": "613878853"
+           },
+           {
+            "Id": "672653196"
+           },
+           {
+            "Id": "813706143"
+           },
+           {
+            "Id": "874160186"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{B480FDBC-B963-4F92-AADA-6C5A68BB33D0}",
+          "Media": [
+           {
+            "Id": "63615227"
+           },
+           {
+            "Id": "337615981"
+           },
+           {
+            "Id": "633788955"
+           },
+           {
+            "Id": "763551033"
+           },
+           {
+            "Id": "929210327"
+           },
+           {
+            "Id": "1052487845"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{905FE1F7-BD94-4FC5-982D-B5EE8833346F}",
+          "Media": [
+           {
+            "Id": "113924279"
+           },
+           {
+            "Id": "218294020"
+           },
+           {
+            "Id": "292696711"
+           },
+           {
+            "Id": "297356201"
+           },
+           {
+            "Id": "597683995"
+           },
+           {
+            "Id": "977912613"
+           }
+          ]
          }
         ]
        },
        {
-        "SwitchValue": "{71B97E48-AF49-401C-9912-74229FE65C03}",
-        "Media": [
+        "SwitchValue": "{D77F2B72-2DD4-4E34-94B8-4C768A8D7406}",
+        "DefaultSwitchValue": "{8697051C-7850-418F-8713-15997716A4FE}",
+        "Children": [
          {
-          "Id": "209185863"
+          "SwitchValue": "{8697051C-7850-418F-8713-15997716A4FE}",
+          "Media": [
+           {
+            "Id": "102048234"
+           },
+           {
+            "Id": "110623919"
+           },
+           {
+            "Id": "340424136"
+           },
+           {
+            "Id": "378126434"
+           },
+           {
+            "Id": "771795146"
+           },
+           {
+            "Id": "811821000"
+           },
+           {
+            "Id": "852857501"
+           },
+           {
+            "Id": "891628710"
+           },
+           {
+            "Id": "1022312967"
+           },
+           {
+            "Id": "1067690539"
+           }
+          ]
          },
          {
-          "Id": "301011992"
+          "SwitchValue": "{71B97E48-AF49-401C-9912-74229FE65C03}",
+          "Media": [
+           {
+            "Id": "209185863"
+           },
+           {
+            "Id": "301011992"
+           },
+           {
+            "Id": "610608631"
+           },
+           {
+            "Id": "619976003"
+           },
+           {
+            "Id": "777732565"
+           },
+           {
+            "Id": "873649963"
+           }
+          ]
          },
          {
-          "Id": "610608631"
+          "SwitchValue": "{D8FA005E-3CBF-46F3-9735-5E5E6E53F00A}",
+          "Media": [
+           {
+            "Id": "21131026"
+           },
+           {
+            "Id": "666845999"
+           },
+           {
+            "Id": "733250711"
+           }
+          ]
          },
          {
-          "Id": "619976003"
+          "SwitchValue": "{6B35DE74-D6FC-498A-8E8D-A40BE940B317}",
+          "Media": [
+           {
+            "Id": "111484945"
+           },
+           {
+            "Id": "129656882"
+           },
+           {
+            "Id": "158885810"
+           },
+           {
+            "Id": "209450012"
+           },
+           {
+            "Id": "225978460"
+           },
+           {
+            "Id": "344822341"
+           },
+           {
+            "Id": "361359406"
+           },
+           {
+            "Id": "586527996"
+           },
+           {
+            "Id": "678312899"
+           },
+           {
+            "Id": "812671445"
+           },
+           {
+            "Id": "881386844"
+           },
+           {
+            "Id": "1046730012"
+           }
+          ]
          },
          {
-          "Id": "777732565"
+          "SwitchValue": "{6985F882-4809-4853-9229-412DFD1010D1}",
+          "Media": [
+           {
+            "Id": "849679954"
+           },
+           {
+            "Id": "955213998"
+           },
+           {
+            "Id": "1008968432"
+           }
+          ]
          },
          {
-          "Id": "873649963"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{D8FA005E-3CBF-46F3-9735-5E5E6E53F00A}",
-        "Media": [
-         {
-          "Id": "21131026"
+          "SwitchValue": "{B6AA208F-690F-4EF5-AB16-99F9E1FDD68F}",
+          "Media": [
+           {
+            "Id": "66857043"
+           },
+           {
+            "Id": "303852816"
+           },
+           {
+            "Id": "801544065"
+           }
+          ]
          },
          {
-          "Id": "666845999"
+          "SwitchValue": "{659F9FA7-899E-402E-8439-1DEC5B542736}",
+          "Media": [
+           {
+            "Id": "257757896"
+           },
+           {
+            "Id": "641616743"
+           },
+           {
+            "Id": "733495495"
+           }
+          ]
          },
          {
-          "Id": "733250711"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{6B35DE74-D6FC-498A-8E8D-A40BE940B317}",
-        "Media": [
-         {
-          "Id": "111484945"
+          "SwitchValue": "{D62F78AB-2F60-4742-98B7-9C630454F448}",
+          "Media": [
+           {
+            "Id": "186245735"
+           },
+           {
+            "Id": "408602076"
+           },
+           {
+            "Id": "1042088029"
+           }
+          ]
          },
          {
-          "Id": "129656882"
+          "SwitchValue": "{40C117B8-3365-4E80-B9B1-9CE9227507A6}",
+          "Media": [
+           {
+            "Id": "75537005"
+           },
+           {
+            "Id": "139094833"
+           },
+           {
+            "Id": "366913200"
+           },
+           {
+            "Id": "539514201"
+           },
+           {
+            "Id": "656891465"
+           },
+           {
+            "Id": "671805108"
+           },
+           {
+            "Id": "833843366"
+           },
+           {
+            "Id": "1027013280"
+           }
+          ]
          },
          {
-          "Id": "158885810"
+          "SwitchValue": "{2836DFBA-155A-4E36-8585-926856B388B7}",
+          "Media": [
+           {
+            "Id": "555190685"
+           },
+           {
+            "Id": "558763824"
+           },
+           {
+            "Id": "590217135"
+           },
+           {
+            "Id": "613878853"
+           },
+           {
+            "Id": "672653196"
+           },
+           {
+            "Id": "813706143"
+           },
+           {
+            "Id": "874160186"
+           }
+          ]
          },
          {
-          "Id": "209450012"
+          "SwitchValue": "{B480FDBC-B963-4F92-AADA-6C5A68BB33D0}",
+          "Media": [
+           {
+            "Id": "63615227"
+           },
+           {
+            "Id": "337615981"
+           },
+           {
+            "Id": "633788955"
+           },
+           {
+            "Id": "763551033"
+           },
+           {
+            "Id": "929210327"
+           },
+           {
+            "Id": "1052487845"
+           }
+          ]
          },
          {
-          "Id": "225978460"
-         },
-         {
-          "Id": "344822341"
-         },
-         {
-          "Id": "361359406"
-         },
-         {
-          "Id": "586527996"
-         },
-         {
-          "Id": "678312899"
-         },
-         {
-          "Id": "812671445"
-         },
-         {
-          "Id": "881386844"
-         },
-         {
-          "Id": "1046730012"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{6985F882-4809-4853-9229-412DFD1010D1}",
-        "Media": [
-         {
-          "Id": "849679954"
-         },
-         {
-          "Id": "955213998"
-         },
-         {
-          "Id": "1008968432"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{B6AA208F-690F-4EF5-AB16-99F9E1FDD68F}",
-        "Media": [
-         {
-          "Id": "66857043"
-         },
-         {
-          "Id": "303852816"
-         },
-         {
-          "Id": "801544065"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{659F9FA7-899E-402E-8439-1DEC5B542736}",
-        "Media": [
-         {
-          "Id": "257757896"
-         },
-         {
-          "Id": "641616743"
-         },
-         {
-          "Id": "733495495"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{D62F78AB-2F60-4742-98B7-9C630454F448}",
-        "Media": [
-         {
-          "Id": "186245735"
-         },
-         {
-          "Id": "408602076"
-         },
-         {
-          "Id": "1042088029"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{40C117B8-3365-4E80-B9B1-9CE9227507A6}",
-        "Media": [
-         {
-          "Id": "75537005"
-         },
-         {
-          "Id": "139094833"
-         },
-         {
-          "Id": "366913200"
-         },
-         {
-          "Id": "539514201"
-         },
-         {
-          "Id": "656891465"
-         },
-         {
-          "Id": "671805108"
-         },
-         {
-          "Id": "833843366"
-         },
-         {
-          "Id": "1027013280"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{2836DFBA-155A-4E36-8585-926856B388B7}",
-        "Media": [
-         {
-          "Id": "555190685"
-         },
-         {
-          "Id": "558763824"
-         },
-         {
-          "Id": "590217135"
-         },
-         {
-          "Id": "613878853"
-         },
-         {
-          "Id": "672653196"
-         },
-         {
-          "Id": "813706143"
-         },
-         {
-          "Id": "874160186"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{905FE1F7-BD94-4FC5-982D-B5EE8833346F}",
-        "Media": [
-         {
-          "Id": "113924279"
-         },
-         {
-          "Id": "218294020"
-         },
-         {
-          "Id": "292696711"
-         },
-         {
-          "Id": "297356201"
-         },
-         {
-          "Id": "597683995"
-         },
-         {
-          "Id": "977912613"
+          "SwitchValue": "{905FE1F7-BD94-4FC5-982D-B5EE8833346F}",
+          "Media": [
+           {
+            "Id": "113924279"
+           },
+           {
+            "Id": "218294020"
+           },
+           {
+            "Id": "292696711"
+           },
+           {
+            "Id": "297356201"
+           },
+           {
+            "Id": "597683995"
+           },
+           {
+            "Id": "977912613"
+           }
+          ]
          }
         ]
        }
@@ -866,6 +1208,32 @@
         "Language": "SFX",
         "ShortName": "Reverie-Forest_Ambient_02_LOOP.wav",
         "Path": "SFX\\Reverie-Forest_Ambient_02_LOOP_9ABA330A.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4089264814",
+      "Name": "Play_Gate_Open",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Gate_Open",
+      "GUID": "{9E931FBF-E004-4A3F-AEAF-A92F346470C5}",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "4.853312",
+      "DurationMax": "4.853312",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "298469252",
+        "Language": "SFX",
+        "ShortName": "Reverie-Gate_Open.wav",
+        "Path": "SFX\\Reverie-Gate_Open_9ABA330A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3169399587",
+        "Name": "Grotto_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
+        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
        }
       ]
      },
@@ -941,6 +1309,55 @@
       ]
      },
      {
+      "Id": "3689126666",
+      "Name": "Play_Jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Jump",
+      "GUID": "{3D020248-2F80-4640-99A4-A59CA87A034A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.198882",
+      "DurationMax": "0.351367",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "248110939",
+        "Language": "SFX",
+        "ShortName": "Reverie-Jump_04.wav",
+        "Path": "SFX\\Reverie-Jump_04_9ABA330A.wem"
+       },
+       {
+        "Id": "425995142",
+        "Language": "SFX",
+        "ShortName": "Reverie-Jump_05.wav",
+        "Path": "SFX\\Reverie-Jump_05_9ABA330A.wem"
+       },
+       {
+        "Id": "427079589",
+        "Language": "SFX",
+        "ShortName": "Reverie-Jump_02.wav",
+        "Path": "SFX\\Reverie-Jump_02_9ABA330A.wem"
+       },
+       {
+        "Id": "762037641",
+        "Language": "SFX",
+        "ShortName": "Reverie-Jump_03.wav",
+        "Path": "SFX\\Reverie-Jump_03_9ABA330A.wem"
+       },
+       {
+        "Id": "972438696",
+        "Language": "SFX",
+        "ShortName": "Reverie-Jump_01.wav",
+        "Path": "SFX\\Reverie-Jump_01_9ABA330A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3169399587",
+        "Name": "Grotto_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
+        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
+       }
+      ]
+     },
+     {
       "Id": "4237703228",
       "Name": "Play_Music1",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Music1",
@@ -975,9 +1392,9 @@
       ]
      },
      {
-      "Id": "1723007592",
-      "Name": "Play_Pickup_Bateries",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Pickup_Bateries",
+      "Id": "646439160",
+      "Name": "Play_Pickup_Batteries",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Pickup_Batteries",
       "GUID": "{2FA6F85B-B00E-4886-BBED-34DF5550AB4A}",
       "DurationType": "OneShot",
       "DurationMin": "2.416521",
@@ -1055,6 +1472,57 @@
         "Language": "SFX",
         "ShortName": "Reverie-Chime_01.wav",
         "Path": "SFX\\Reverie-Chime_01_9ABA330A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3169399587",
+        "Name": "Grotto_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
+        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
+       }
+      ]
+     },
+     {
+      "Id": "2310479621",
+      "Name": "Play_Pickup_Rune",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Pickup_Rune",
+      "GUID": "{2248DFED-2BB6-4620-AF1A-9C24F2941573}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.301313",
+      "DurationMax": "0.301313",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "371994012",
+        "Language": "SFX",
+        "ShortName": "Reverie-Pickup_Rune.wav",
+        "Path": "SFX\\Reverie-Pickup_Rune_9ABA330A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3169399587",
+        "Name": "Grotto_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
+        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
+       }
+      ]
+     },
+     {
+      "Id": "1760034518",
+      "Name": "Play_Rune_Insert",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Rune_Insert",
+      "GUID": "{4F95D4B2-221B-4500-A802-44CDD9CFE047}",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.563886",
+      "DurationMax": "0.632941",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "711903880",
+        "Language": "SFX",
+        "ShortName": "Reverie-Rune_Insert.wav",
+        "Path": "SFX\\Reverie-Rune_Insert_9ABA330A.wem"
        }
       ],
       "AuxBusSends": [
@@ -1421,6 +1889,26 @@
     ],
     "SwitchGroups": [
      {
+      "Id": "1062779386",
+      "Name": "Player_Speed",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Player_Speed",
+      "GUID": "{096D68FD-72DF-4E53-899A-4E19DE2F9578}",
+      "Switches": [
+       {
+        "Id": "2108779966",
+        "Name": "Walk",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player_Speed\\Walk",
+        "GUID": "{7049C75B-3A11-4BA6-8DF3-551273FB6FED}"
+       },
+       {
+        "Id": "1296465089",
+        "Name": "Sprint",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Player_Speed\\Sprint",
+        "GUID": "{D77F2B72-2DD4-4E34-94B8-4C768A8D7406}"
+       }
+      ]
+     },
+     {
       "Id": "3964766495",
       "Name": "Floor_Material",
       "ObjectPath": "\\Switches\\Default Work Unit\\Floor_Material",
@@ -1463,9 +1951,9 @@
         "GUID": "{905FE1F7-BD94-4FC5-982D-B5EE8833346F}"
        },
        {
-        "Id": "3199281098",
-        "Name": "Foam",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Floor_Material\\Foam",
+        "Id": "997675478",
+        "Name": "PPA",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Floor_Material\\PPA",
         "GUID": "{B480FDBC-B963-4F92-AADA-6C5A68BB33D0}"
        },
        {
