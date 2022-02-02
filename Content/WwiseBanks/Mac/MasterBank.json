@@ -16,7 +16,7 @@
     "Id": "1542108333",
     "GUID": "{CA1DDA29-E66E-4FBE-B121-02F04DDDB158}",
     "Language": "SFX",
-    "Hash": "1379048638",
+    "Hash": "1272661999",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MasterBank",
     "ShortName": "MasterBank",
     "Path": "MasterBank.bnk",
@@ -695,6 +695,7 @@
         "Path": "SFX\\Reverie-Footsteps_Grass_01_9ABA330A.wem"
        }
       ],
+      "DefaultSwitchValue": "{7049C75B-3A11-4BA6-8DF3-551273FB6FED}",
       "SwitchContainers": [
        {
         "SwitchValue": "{7049C75B-3A11-4BA6-8DF3-551273FB6FED}",
