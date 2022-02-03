@@ -16,7 +16,7 @@
     "Id": "1542108333",
     "GUID": "{CA1DDA29-E66E-4FBE-B121-02F04DDDB158}",
     "Language": "SFX",
-    "Hash": "378313538",
+    "Hash": "581999710",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MasterBank",
     "ShortName": "MasterBank",
     "Path": "MasterBank.bnk",
@@ -301,7 +301,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Footstep",
       "GUID": "{78C325A0-0522-4237-9457-2EF2ED395AC5}",
       "DurationType": "OneShot",
-      "DurationMin": "0.133599",
+      "DurationMin": "0.083713",
       "DurationMax": "1.587125",
       "IncludedMemoryFiles": [
        {
