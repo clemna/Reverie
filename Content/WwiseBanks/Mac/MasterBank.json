@@ -16,7 +16,7 @@
     "Id": "1542108333",
     "GUID": "{CA1DDA29-E66E-4FBE-B121-02F04DDDB158}",
     "Language": "SFX",
-    "Hash": "4164094079",
+    "Hash": "378313538",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MasterBank",
     "ShortName": "MasterBank",
     "Path": "MasterBank.bnk",
@@ -192,70 +192,10 @@
       ]
      },
      {
-      "Id": "130672102",
-      "Name": "Play_Crystal_C",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Crystal_C",
-      "GUID": "{80D3D8F8-4AD1-44CB-88D4-935DEF359566}",
-      "MaxAttenuation": "100.000000",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "358121311",
-        "Language": "SFX",
-        "ShortName": "Reverie-Crystal_C01.wav",
-        "Path": "SFX\\Reverie-Crystal_C01_075A6C54.wem"
-       },
-       {
-        "Id": "607613182",
-        "Language": "SFX",
-        "ShortName": "Reverie-Crystal_Shimmer01.wav",
-        "Path": "SFX\\Reverie-Crystal_Shimmer01_075A6C54.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "3169399587",
-        "Name": "Grotto_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
-        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
-       }
-      ]
-     },
-     {
-      "Id": "2508377217",
-      "Name": "Play_Crystal_Fsharp",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Crystal_Fsharp",
-      "GUID": "{BCBCF17F-E563-4994-B0C1-E292CE71E090}",
-      "MaxAttenuation": "100.000000",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "358121311",
-        "Language": "SFX",
-        "ShortName": "Reverie-Crystal_C01.wav",
-        "Path": "SFX\\Reverie-Crystal_C01_075A6C54.wem"
-       },
-       {
-        "Id": "607613182",
-        "Language": "SFX",
-        "ShortName": "Reverie-Crystal_Shimmer01.wav",
-        "Path": "SFX\\Reverie-Crystal_Shimmer01_075A6C54.wem"
-       }
-      ],
-      "AuxBusSends": [
-       {
-        "Id": "3169399587",
-        "Name": "Grotto_Reverb",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
-        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
-       }
-      ]
-     },
-     {
-      "Id": "130672098",
-      "Name": "Play_Crystal_G",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Crystal_G",
-      "GUID": "{224C066D-9640-4575-9A71-843269750460}",
+      "Id": "2035174344",
+      "Name": "Play_Crystal",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Crystal",
+      "GUID": "{9C867BA3-4C1A-4400-ACB2-5A1515097C46}",
       "MaxAttenuation": "100.000000",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [

@@ -1,6 +1,4 @@
 Event	ID	Name			Wwise Object Path	Notes
-	130672098	Play_Crystal_G			\Default Work Unit\Play_Crystal_G	
-	130672102	Play_Crystal_C			\Default Work Unit\Play_Crystal_C	
 	248894660	Play_Star_Batteries_Insert			\Default Work Unit\Play_Star_Batteries_Insert	
 	350586603	Play_Boat_Wading			\Default Work Unit\Play_Boat_Wading	
 	387097402	Play_Tree_Creacking			\Default Work Unit\Play_Tree_Creacking	
@@ -15,13 +13,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	1750902384	Stop_Tree_Creacking			\Default Work Unit\Stop_Tree_Creacking	
 	1760034518	Play_Rune_Insert			\Default Work Unit\Play_Rune_Insert	
 	1908953803	Play_Star_Idle			\Default Work Unit\Play_Star_Idle	
+	2035174344	Play_Crystal			\Default Work Unit\Play_Crystal	
 	2059401670	Stop_Cave_Ambient			\Default Work Unit\Stop_Cave_Ambient	
 	2095428330	Play_Chest_Locked			\Default Work Unit\Play_Chest_Locked	
 	2129946869	Stop_Boat_Wading			\Default Work Unit\Stop_Boat_Wading	
 	2278146586	Play_Star_Emote_NoNo			\Default Work Unit\Play_Star_Emote_NoNo	
 	2292458263	Play_Door_Close			\Default Work Unit\Play_Door_Close	
 	2310479621	Play_Pickup_Rune			\Default Work Unit\Play_Pickup_Rune	
-	2508377217	Play_Crystal_Fsharp			\Default Work Unit\Play_Crystal_Fsharp	
 	2515930607	Play_Star_Emote_HurryUp			\Default Work Unit\Play_Star_Emote_HurryUp	
 	2672222943	Play_Chest_Unlock_Open			\Default Work Unit\Play_Chest_Unlock_Open	
 	2687305538	Stop_Waterfall			\Default Work Unit\Stop_Waterfall	
@@ -112,7 +110,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	349214809	Reverie-Cave_Drip_05	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Cave_Drip_05_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grotto\Grotto_Ambient\Cave_Drip\Reverie-Cave_Drip_05		52629
 	349603185	Reverie-Tree_Creaking_03	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Tree_Creaking_03_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grotto\Tree_Creacking\Reverie-Tree_Creaking_03		67501
 	357632785	Reverie-Grotto_Ambient_01-LOOP	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Grotto_Ambient_01-LOOP_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grotto\Grotto_Ambient\Reverie-Grotto_Ambient_01-LOOP		4381023
-	358121311	Reverie-Crystal_C01	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Crystal_C01_075A6C54.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Crystal_G\Reverie-Crystal_C01		481984
+	358121311	Reverie-Crystal_C01	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Crystal_C01_075A6C54.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Crystal\Crystal_Main\Reverie-Crystal_C01		481984
 	361359406	Reverie-Footsteps_Water_09	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Footsteps_Water_09_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footstep\Footstep_Walk\Footstep_Water_Walk\Reverie-Footsteps_Water_09		53272
 	362973121	Reverie-Cave_Drip_06	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Cave_Drip_06_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grotto\Grotto_Ambient\Cave_Drip\Reverie-Cave_Drip_06		80126
 	366913200	Reverie-Footsteps_Wood_07	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Footsteps_Wood_07_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footstep\Footstep_Walk\Footstep_Wood_Walk\Reverie-Footsteps_Wood_07		18766
@@ -136,7 +134,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	586527996	Reverie-Footsteps_Water_03	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Footsteps_Water_03_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footstep\Footstep_Walk\Footstep_Water_Walk\Reverie-Footsteps_Water_03		50121
 	590217135	Reverie-Footsteps_Stone_01	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Footsteps_Stone_01_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footstep\Footstep_Walk\Footstep_Stone_Walk\Reverie-Footsteps_Stone_01		17195
 	597683995	Reverie-Footsteps_Sand_01	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Footsteps_Sand_01_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footstep\Footstep_Walk\Footstep_Sand_Walk\Reverie-Footsteps_Sand_01		35443
-	607613182	Reverie-Crystal_Shimmer01	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Crystal_Shimmer01_075A6C54.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Crystal_G\Reverie-Crystal_Shimmer01		366119
+	607613182	Reverie-Crystal_Shimmer01	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Crystal_Shimmer01_075A6C54.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Crystal\Reverie-Crystal_Shimmer01		366119
 	610608631	Reverie-Footsteps_Gravel_01	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Footsteps_Gravel_01_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footstep\Footstep_Walk\Footstep_Gravel_Walk\Reverie-Footsteps_Gravel_01		26732
 	613878853	Reverie-Footsteps_Stone_07	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Footsteps_Stone_07_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footstep\Footstep_Walk\Footstep_Stone_Walk\Reverie-Footsteps_Stone_07		21706
 	619976003	Reverie-Footsteps_Gravel_05	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Footsteps_Gravel_05_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footstep\Footstep_Walk\Footstep_Gravel_Walk\Reverie-Footsteps_Gravel_05		35505
