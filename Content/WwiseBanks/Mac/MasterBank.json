@@ -16,7 +16,7 @@
     "Id": "1542108333",
     "GUID": "{CA1DDA29-E66E-4FBE-B121-02F04DDDB158}",
     "Language": "SFX",
-    "Hash": "1272661999",
+    "Hash": "4164094079",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MasterBank",
     "ShortName": "MasterBank",
     "Path": "MasterBank.bnk",
@@ -180,6 +180,96 @@
         "Language": "SFX",
         "ShortName": "Reverie-Chest_Unlock+Open_01.wav",
         "Path": "SFX\\Reverie-Chest_Unlock+Open_01_9ABA330A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3169399587",
+        "Name": "Grotto_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
+        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
+       }
+      ]
+     },
+     {
+      "Id": "130672102",
+      "Name": "Play_Crystal_C",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Crystal_C",
+      "GUID": "{80D3D8F8-4AD1-44CB-88D4-935DEF359566}",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "358121311",
+        "Language": "SFX",
+        "ShortName": "Reverie-Crystal_C01.wav",
+        "Path": "SFX\\Reverie-Crystal_C01_075A6C54.wem"
+       },
+       {
+        "Id": "607613182",
+        "Language": "SFX",
+        "ShortName": "Reverie-Crystal_Shimmer01.wav",
+        "Path": "SFX\\Reverie-Crystal_Shimmer01_075A6C54.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3169399587",
+        "Name": "Grotto_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
+        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
+       }
+      ]
+     },
+     {
+      "Id": "2508377217",
+      "Name": "Play_Crystal_Fsharp",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Crystal_Fsharp",
+      "GUID": "{BCBCF17F-E563-4994-B0C1-E292CE71E090}",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "358121311",
+        "Language": "SFX",
+        "ShortName": "Reverie-Crystal_C01.wav",
+        "Path": "SFX\\Reverie-Crystal_C01_075A6C54.wem"
+       },
+       {
+        "Id": "607613182",
+        "Language": "SFX",
+        "ShortName": "Reverie-Crystal_Shimmer01.wav",
+        "Path": "SFX\\Reverie-Crystal_Shimmer01_075A6C54.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3169399587",
+        "Name": "Grotto_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
+        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
+       }
+      ]
+     },
+     {
+      "Id": "130672098",
+      "Name": "Play_Crystal_G",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Crystal_G",
+      "GUID": "{224C066D-9640-4575-9A71-843269750460}",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "358121311",
+        "Language": "SFX",
+        "ShortName": "Reverie-Crystal_C01.wav",
+        "Path": "SFX\\Reverie-Crystal_C01_075A6C54.wem"
+       },
+       {
+        "Id": "607613182",
+        "Language": "SFX",
+        "ShortName": "Reverie-Crystal_Shimmer01.wav",
+        "Path": "SFX\\Reverie-Crystal_Shimmer01_075A6C54.wem"
        }
       ],
       "AuxBusSends": [
@@ -1566,14 +1656,32 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Pickup_Rune",
       "GUID": "{2248DFED-2BB6-4620-AF1A-9C24F2941573}",
       "DurationType": "OneShot",
-      "DurationMin": "0.301313",
-      "DurationMax": "0.301313",
+      "DurationMin": "2.416521",
+      "DurationMax": "2.418354",
       "IncludedMemoryFiles": [
        {
         "Id": "371994012",
         "Language": "SFX",
         "ShortName": "Reverie-Pickup_Rune.wav",
         "Path": "SFX\\Reverie-Pickup_Rune_9ABA330A.wem"
+       },
+       {
+        "Id": "576289594",
+        "Language": "SFX",
+        "ShortName": "Reverie-Chime_02.wav",
+        "Path": "SFX\\Reverie-Chime_02_9ABA330A.wem"
+       },
+       {
+        "Id": "663476046",
+        "Language": "SFX",
+        "ShortName": "Reverie-Chime_03.wav",
+        "Path": "SFX\\Reverie-Chime_03_9ABA330A.wem"
+       },
+       {
+        "Id": "1062239770",
+        "Language": "SFX",
+        "ShortName": "Reverie-Chime_01.wav",
+        "Path": "SFX\\Reverie-Chime_01_9ABA330A.wem"
        }
       ],
       "AuxBusSends": [
