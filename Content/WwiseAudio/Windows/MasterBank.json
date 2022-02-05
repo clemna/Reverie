@@ -16,7 +16,7 @@
     "Id": "1542108333",
     "GUID": "{CA1DDA29-E66E-4FBE-B121-02F04DDDB158}",
     "Language": "SFX",
-    "Hash": "581999710",
+    "Hash": "4168865504",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MasterBank",
     "ShortName": "MasterBank",
     "Path": "MasterBank.bnk",
@@ -1370,12 +1370,6 @@
         "Path": "SFX\\Reverie-Cave_Drip_05_9ABA330A.wem"
        },
        {
-        "Id": "357632785",
-        "Language": "SFX",
-        "ShortName": "Reverie-Grotto_Ambient_01-LOOP.wav",
-        "Path": "SFX\\Reverie-Grotto_Ambient_01-LOOP_9ABA330A.wem"
-       },
-       {
         "Id": "362973121",
         "Language": "SFX",
         "ShortName": "Reverie-Cave_Drip_06.wav",
@@ -1385,7 +1379,7 @@
         "Id": "504841091",
         "Language": "SFX",
         "ShortName": "Reverie-Wind_Whistle_01-LOOP.wav",
-        "Path": "SFX\\Reverie-Wind_Whistle_01-LOOP_9ABA330A.wem"
+        "Path": "SFX\\Reverie-Wind_Whistle_01-LOOP_075A6C54.wem"
        },
        {
         "Id": "507117369",
@@ -1398,6 +1392,12 @@
         "Language": "SFX",
         "ShortName": "Reverie-Cave_Drip_07.wav",
         "Path": "SFX\\Reverie-Cave_Drip_07_9ABA330A.wem"
+       },
+       {
+        "Id": "648609880",
+        "Language": "SFX",
+        "ShortName": "Reverie-Grotto_Ambient_01-LOOP.wav",
+        "Path": "SFX\\Reverie-Grotto_Ambient_01-LOOP_075A6C54.wem"
        },
        {
         "Id": "1051090502",
@@ -1470,14 +1470,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Music1",
       "GUID": "{910D42D3-626C-41BB-BA8F-AA66DA744064}",
       "DurationType": "OneShot",
-      "DurationMin": "135.735809",
-      "DurationMax": "135.735809",
+      "DurationMin": "64.248383",
+      "DurationMax": "64.248383",
       "IncludedMemoryFiles": [
        {
-        "Id": "192943792",
+        "Id": "146627398",
         "Language": "SFX",
-        "ShortName": "1 - Reverie_Girl_Theme_DRAFT_v1.wav",
-        "Path": "SFX\\1 - Reverie_Girl_Theme_DRAFT_v1_075A6C54.wem"
+        "ShortName": "Reverie_Goldmaster - CAVE_INTRO.wav",
+        "Path": "SFX\\Reverie_Goldmaster - CAVE_INTRO_075A6C54.wem"
        }
       ]
      },
@@ -1486,15 +1486,19 @@
       "Name": "Play_Music2",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Music2",
       "GUID": "{01320111-D96F-4DF1-B50B-288BC98A9BB5}",
-      "DurationType": "OneShot",
-      "DurationMin": "240.096512",
-      "DurationMax": "240.096512",
+      "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
-        "Id": "38885168",
+        "Id": "865163710",
         "Language": "SFX",
-        "ShortName": "Reverie_Forest_DRAFT_v1.wav",
-        "Path": "SFX\\Reverie_Forest_DRAFT_v1_075A6C54.wem"
+        "ShortName": "Reverie_Goldmaster - GROTTO_LOOP-75.wav",
+        "Path": "SFX\\Reverie_Goldmaster - GROTTO_LOOP-75_075A6C54.wem"
+       },
+       {
+        "Id": "893070842",
+        "Language": "SFX",
+        "ShortName": "Reverie_Goldmaster - GROTTO_INTRO-54.wav",
+        "Path": "SFX\\Reverie_Goldmaster - GROTTO_INTRO-54_075A6C54.wem"
        }
       ]
      },
