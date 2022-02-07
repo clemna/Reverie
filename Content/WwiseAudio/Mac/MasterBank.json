@@ -16,7 +16,7 @@
     "Id": "1542108333",
     "GUID": "{CA1DDA29-E66E-4FBE-B121-02F04DDDB158}",
     "Language": "SFX",
-    "Hash": "2143050612",
+    "Hash": "1426193429",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MasterBank",
     "ShortName": "MasterBank",
     "Path": "MasterBank.bnk",
@@ -136,6 +136,32 @@
         "Name": "Cave_Reverb",
         "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Cave_Reverb",
         "GUID": "{ABB16B87-6456-4BCF-B27C-FB9EDF773517}"
+       }
+      ]
+     },
+     {
+      "Id": "3454195573",
+      "Name": "Play_Chest_Closing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Chest_Closing",
+      "GUID": "{9CF8BBB6-4CE6-4133-BBAA-5A663325EC6B}",
+      "MaxAttenuation": "1000.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.897646",
+      "DurationMax": "0.897646",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "194141620",
+        "Language": "SFX",
+        "ShortName": "Reverie-Item_Chest_Closing_01.wav",
+        "Path": "SFX\\Reverie-Item_Chest_Closing_01_9ABA330A.wem"
+       }
+      ],
+      "AuxBusSends": [
+       {
+        "Id": "3169399587",
+        "Name": "Grotto_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Grotto_Reverb",
+        "GUID": "{539EBD1A-2404-4081-A18F-496DB13BD3D6}"
        }
       ]
      },
@@ -1784,7 +1810,7 @@
       "Name": "Play_Star_Idle",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Star_Idle",
       "GUID": "{F0E29DEA-F011-4BC3-B661-0FE84D7DE43A}",
-      "MaxAttenuation": "1000.",
+      "MaxAttenuation": "800.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {

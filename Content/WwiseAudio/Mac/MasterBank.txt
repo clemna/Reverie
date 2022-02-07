@@ -29,6 +29,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3034517322	Stop_Music1			\Default Work Unit\Stop_Music1	
 	3206962000	Play_Forest_Ambient			\Default Work Unit\Play_Forest_Ambient	
 	3212638512	Play_Cauldron			\Default Work Unit\Play_Cauldron	
+	3454195573	Play_Chest_Closing			\Default Work Unit\Play_Chest_Closing	
 	3689126666	Play_Jump			\Default Work Unit\Play_Jump	
 	3692107796	Play_Cave_Ambient			\Default Work Unit\Play_Cave_Ambient	
 	3768549418	Play_Pickup_Key			\Default Work Unit\Play_Pickup_Key	
@@ -82,6 +83,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	158885810	Reverie-Footsteps_Water_04	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Footsteps_Water_04_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footstep\Footstep_Walk\Footstep_Water_Walk\Reverie-Footsteps_Water_04		49529
 	171515429	Reverie-Forest_Ambient_Wind_01_LOOP	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Forest_Ambient_Wind_01_LOOP_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Forest\Forest_Ambient\Reverie-Forest_Ambient_Wind_01_LOOP		16038128
 	186245735	Reverie-Step_Fsharp_03	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Step_Fsharp_03_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footstep\Footstep_Walk\Footstep_Step_Fsharp_Walk\Reverie-Step_Fsharp_03		64274
+	194141620	Chest_Closing	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Item_Chest_Closing_01_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Objects\Chest_Closing		43647
 	209185863	Reverie-Footsteps_Gravel_04	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Footsteps_Gravel_04_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footstep\Footstep_Walk\Footstep_Gravel_Walk\Reverie-Footsteps_Gravel_04		32336
 	209450012	Reverie-Footsteps_Water_08	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Footsteps_Water_08_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footstep\Footstep_Walk\Footstep_Water_Walk\Reverie-Footsteps_Water_08		49877
 	213957780	Reverie-Cave_Drip_04	E:\Game Development\Reverie\Reverie_WwiseProject\.cache\Mac\SFX\Reverie-Cave_Drip_04_9ABA330A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cave\Cave_Ambient\Cave_Drip\Reverie-Cave_Drip_04		64646
