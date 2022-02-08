@@ -16,7 +16,7 @@
     "Id": "1542108333",
     "GUID": "{CA1DDA29-E66E-4FBE-B121-02F04DDDB158}",
     "Language": "SFX",
-    "Hash": "1426193429",
+    "Hash": "3648216289",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MasterBank",
     "ShortName": "MasterBank",
     "Path": "MasterBank.bnk",
@@ -146,8 +146,8 @@
       "GUID": "{9CF8BBB6-4CE6-4133-BBAA-5A663325EC6B}",
       "MaxAttenuation": "1000.000000",
       "DurationType": "OneShot",
-      "DurationMin": "0.897646",
-      "DurationMax": "0.897646",
+      "DurationMin": "1.697646",
+      "DurationMax": "1.697646",
       "IncludedMemoryFiles": [
        {
         "Id": "194141620",
@@ -198,8 +198,8 @@
       "GUID": "{78B2373D-8236-4040-AA28-F6DB3CDE203C}",
       "MaxAttenuation": "1000.000000",
       "DurationType": "OneShot",
-      "DurationMin": "3.558417",
-      "DurationMax": "3.558417",
+      "DurationMin": "3.858417",
+      "DurationMax": "3.858417",
       "IncludedMemoryFiles": [
        {
         "Id": "391429064",
